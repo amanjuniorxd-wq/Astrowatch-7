@@ -1,0 +1,4 @@
+event_id,reason,current_value,recommended_action,source,status
+EVENT-0079-001,date_confidence=DISPUTED: Eruption of Vesuvius destroys Pompeii and Herculaneum,DISPUTED,"confirm which cited date this project should treat as canonical, or keep as DISPUTED permanently",see event_sources for this event_id,OPEN
+EVENT-1918-002,date_confidence=DISPUTED: First documented cases of the 1918 influenza pandemic,DISPUTED,"confirm which cited date this project should treat as canonical, or keep as DISPUTED permanently",see event_sources for this event_id,OPEN
+EVENT-1928-001,date_confidence=DISPUTED: Alexander Fleming observes penicillin's antibacterial effect,DISPUTED,"confirm which cited date this project should treat as canonical, or keep as DISPUTED permanently",see event_sources for this event_id,OPEN

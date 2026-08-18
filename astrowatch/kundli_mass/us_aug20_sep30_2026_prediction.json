@@ -1,0 +1,2906 @@
+{
+ "location_label": "United States (Washington, DC reference point)",
+ "latitude": 38.9072,
+ "longitude": -77.0369,
+ "start_date": "2026-08-20",
+ "end_date": "2026-09-30",
+ "n_days": 42,
+ "days": [
+  {
+   "date": "2026-08-20",
+   "features": {
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Vrischika",
+    "moon_nakshatra": "Anuradha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Anuradha",
+     "historical_counts": {
+      "MILITARY": 5,
+      "POLITICAL": 5,
+      "ECONOMIC": 4
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 112,
+    "POLITICAL": 100,
+    "ECONOMIC": 76
+   }
+  },
+  {
+   "date": "2026-08-21",
+   "features": {
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "sun",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Vrischika",
+    "moon_nakshatra": "Jyeshtha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "antardasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 10,
+      "ECONOMIC": 5
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Jyeshtha",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 101,
+    "POLITICAL": 86,
+    "ECONOMIC": 65
+   }
+  },
+  {
+   "date": "2026-08-22",
+   "features": {
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "sun",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Dhanu",
+    "moon_nakshatra": "Mula",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "ketu",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 14,
+      "ECONOMIC": 22
+     }
+    },
+    "antardasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 10,
+      "ECONOMIC": 5
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Dhanu",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 10,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Mula",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 5,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 98,
+    "POLITICAL": 71,
+    "ECONOMIC": 79
+   }
+  },
+  {
+   "date": "2026-08-23",
+   "features": {
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Dhanu",
+    "moon_nakshatra": "Purva Ashadha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 23,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Dhanu",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 10,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Purva Ashadha",
+     "historical_counts": {
+      "MILITARY": 9,
+      "POLITICAL": 4,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 121,
+    "POLITICAL": 98,
+    "ECONOMIC": 91
+   }
+  },
+  {
+   "date": "2026-08-24",
+   "features": {
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "sun",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Dhanu",
+    "moon_nakshatra": "Uttara Ashadha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "antardasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 10,
+      "ECONOMIC": 5
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Dhanu",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 10,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Uttara Ashadha",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 7,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 94,
+    "POLITICAL": 81,
+    "ECONOMIC": 65
+   }
+  },
+  {
+   "date": "2026-08-25",
+   "features": {
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Makara",
+    "moon_nakshatra": "Uttara Ashadha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Makara",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 18,
+      "ECONOMIC": 7
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Uttara Ashadha",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 7,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 105,
+    "POLITICAL": 108,
+    "ECONOMIC": 72
+   }
+  },
+  {
+   "date": "2026-08-26",
+   "features": {
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Makara",
+    "moon_nakshatra": "Shravana",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 24,
+      "POLITICAL": 19,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Makara",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 18,
+      "ECONOMIC": 7
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Shravana",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 2
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 116,
+    "POLITICAL": 106,
+    "ECONOMIC": 76
+   }
+  },
+  {
+   "date": "2026-08-27",
+   "features": {
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Kumbha",
+    "moon_nakshatra": "Dhanishta",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mars",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 31,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Kumbha",
+     "historical_counts": {
+      "MILITARY": 12,
+      "POLITICAL": 14,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Dhanishta",
+     "historical_counts": {
+      "MILITARY": 6,
+      "POLITICAL": 9,
+      "ECONOMIC": 6
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 116,
+    "POLITICAL": 115,
+    "ECONOMIC": 84
+   }
+  },
+  {
+   "date": "2026-08-28",
+   "features": {
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Kumbha",
+    "moon_nakshatra": "Shatabhisha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 28,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Kumbha",
+     "historical_counts": {
+      "MILITARY": 12,
+      "POLITICAL": 14,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Shatabhisha",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 6,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 100,
+    "POLITICAL": 109,
+    "ECONOMIC": 85
+   }
+  },
+  {
+   "date": "2026-08-29",
+   "features": {
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "moon",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Meena",
+    "moon_nakshatra": "Purva Bhadrapada",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 19,
+      "ECONOMIC": 8
+     }
+    },
+    "antardasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Meena",
+     "historical_counts": {
+      "MILITARY": 20,
+      "POLITICAL": 16,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Purva Bhadrapada",
+     "historical_counts": {
+      "MILITARY": 5,
+      "POLITICAL": 6,
+      "ECONOMIC": 3
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 113,
+    "POLITICAL": 95,
+    "ECONOMIC": 61
+   }
+  },
+  {
+   "date": "2026-08-30",
+   "features": {
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "rahu",
+    "ascendant_rashi": "Tula",
+    "moon_rashi": "Meena",
+    "moon_nakshatra": "Uttara Bhadrapada",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "antardasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 31,
+      "POLITICAL": 42,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 17,
+      "ECONOMIC": 18
+     }
+    },
+    "moon_rashi": {
+     "value": "Meena",
+     "historical_counts": {
+      "MILITARY": 20,
+      "POLITICAL": 16,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Uttara Bhadrapada",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 3
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 122,
+    "POLITICAL": 115,
+    "ECONOMIC": 75
+   }
+  },
+  {
+   "date": "2026-08-31",
+   "features": {
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "jupiter",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Meena",
+    "moon_nakshatra": "Revati",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "antardasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 25,
+      "POLITICAL": 27,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Meena",
+     "historical_counts": {
+      "MILITARY": 20,
+      "POLITICAL": 16,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Revati",
+     "historical_counts": {
+      "MILITARY": 11,
+      "POLITICAL": 5,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 121,
+    "POLITICAL": 100,
+    "ECONOMIC": 75
+   }
+  },
+  {
+   "date": "2026-09-01",
+   "features": {
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Mesha",
+    "moon_nakshatra": "Ashwini",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "ketu",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 14,
+      "ECONOMIC": 22
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Mesha",
+     "historical_counts": {
+      "MILITARY": 10,
+      "POLITICAL": 21,
+      "ECONOMIC": 13
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Ashwini",
+     "historical_counts": {
+      "MILITARY": 2,
+      "POLITICAL": 5,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 94,
+    "POLITICAL": 94,
+    "ECONOMIC": 88
+   }
+  },
+  {
+   "date": "2026-09-02",
+   "features": {
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Mesha",
+    "moon_nakshatra": "Bharani",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 23,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Mesha",
+     "historical_counts": {
+      "MILITARY": 10,
+      "POLITICAL": 21,
+      "ECONOMIC": 13
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Bharani",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 10,
+      "ECONOMIC": 8
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 110,
+    "POLITICAL": 103,
+    "ECONOMIC": 90
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "features": {
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Vrishabha",
+    "moon_nakshatra": "Krittika",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrishabha",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Krittika",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 11
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 113,
+    "POLITICAL": 114,
+    "ECONOMIC": 69
+   }
+  },
+  {
+   "date": "2026-09-04",
+   "features": {
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Vrishabha",
+    "moon_nakshatra": "Rohini",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 24,
+      "POLITICAL": 19,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrishabha",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Rohini",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 6,
+      "ECONOMIC": 9
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 120,
+    "POLITICAL": 106,
+    "ECONOMIC": 85
+   }
+  },
+  {
+   "date": "2026-09-05",
+   "features": {
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "rahu",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Mithuna",
+    "moon_nakshatra": "Ardra",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 28,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 31,
+      "POLITICAL": 42,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Mithuna",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 18,
+      "ECONOMIC": 12
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Ardra",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 9,
+      "ECONOMIC": 6
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 108,
+    "POLITICAL": 130,
+    "ECONOMIC": 85
+   }
+  },
+  {
+   "date": "2026-09-06",
+   "features": {
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "jupiter",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Mithuna",
+    "moon_nakshatra": "Punarvasu",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 19,
+      "ECONOMIC": 8
+     }
+    },
+    "antardasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 25,
+      "POLITICAL": 27,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Mithuna",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 18,
+      "ECONOMIC": 12
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Punarvasu",
+     "historical_counts": {
+      "MILITARY": 12,
+      "POLITICAL": 6,
+      "ECONOMIC": 3
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 124,
+    "POLITICAL": 103,
+    "ECONOMIC": 71
+   }
+  },
+  {
+   "date": "2026-09-07",
+   "features": {
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Karka",
+    "moon_nakshatra": "Pushya",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Karka",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 11,
+      "ECONOMIC": 6
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Pushya",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 4,
+      "ECONOMIC": 4
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 114,
+    "POLITICAL": 81,
+    "ECONOMIC": 71
+   }
+  },
+  {
+   "date": "2026-09-08",
+   "features": {
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Karka",
+    "moon_nakshatra": "Ashlesha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Karka",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 11,
+      "ECONOMIC": 6
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Ashlesha",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 6
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 113,
+    "POLITICAL": 98,
+    "ECONOMIC": 65
+   }
+  },
+  {
+   "date": "2026-09-09",
+   "features": {
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "moon",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Simha",
+    "moon_nakshatra": "Magha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "ketu",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 14,
+      "ECONOMIC": 22
+     }
+    },
+    "antardasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 13,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Magha",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 4,
+      "ECONOMIC": 10
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 100,
+    "POLITICAL": 86,
+    "ECONOMIC": 84
+   }
+  },
+  {
+   "date": "2026-09-10",
+   "features": {
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "mars",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Simha",
+    "moon_nakshatra": "Purva Phalguni",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 23,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "mars",
+     "historical_counts": {
+      "MILITARY": 14,
+      "POLITICAL": 15,
+      "ECONOMIC": 8
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 13,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Purva Phalguni",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 9,
+      "ECONOMIC": 4
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 101,
+    "POLITICAL": 93,
+    "ECONOMIC": 73
+   }
+  },
+  {
+   "date": "2026-09-11",
+   "features": {
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "jupiter",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Kanya",
+    "moon_nakshatra": "Uttara Phalguni",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "antardasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 25,
+      "POLITICAL": 27,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 13,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Uttara Phalguni",
+     "historical_counts": {
+      "MILITARY": 6,
+      "POLITICAL": 4,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 109,
+    "POLITICAL": 99,
+    "ECONOMIC": 73
+   }
+  },
+  {
+   "date": "2026-09-12",
+   "features": {
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "jupiter",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Kanya",
+    "moon_nakshatra": "Hasta",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 24,
+      "POLITICAL": 19,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 25,
+      "POLITICAL": 27,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 13,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Hasta",
+     "historical_counts": {
+      "MILITARY": 9,
+      "POLITICAL": 5,
+      "ECONOMIC": 6
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 119,
+    "POLITICAL": 97,
+    "ECONOMIC": 81
+   }
+  },
+  {
+   "date": "2026-09-13",
+   "features": {
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Kanya",
+    "moon_nakshatra": "Chitra",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mars",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 31,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 13,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Chitra",
+     "historical_counts": {
+      "MILITARY": 11,
+      "POLITICAL": 10,
+      "ECONOMIC": 3
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 122,
+    "POLITICAL": 108,
+    "ECONOMIC": 78
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "features": {
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Tula",
+    "moon_nakshatra": "Swati",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 28,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 22,
+      "ECONOMIC": 13
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Swati",
+     "historical_counts": {
+      "MILITARY": 5,
+      "POLITICAL": 13,
+      "ECONOMIC": 8
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 102,
+    "POLITICAL": 117,
+    "ECONOMIC": 88
+   }
+  },
+  {
+   "date": "2026-09-15",
+   "features": {
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Tula",
+    "moon_nakshatra": "Vishakha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 19,
+      "ECONOMIC": 8
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Tula",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 22,
+      "ECONOMIC": 13
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Vishakha",
+     "historical_counts": {
+      "MILITARY": 10,
+      "POLITICAL": 7,
+      "ECONOMIC": 2
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 121,
+    "POLITICAL": 102,
+    "ECONOMIC": 71
+   }
+  },
+  {
+   "date": "2026-09-16",
+   "features": {
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Vrischika",
+    "moon_nakshatra": "Anuradha",
+    "sun_rashi": "Simha"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Anuradha",
+     "historical_counts": {
+      "MILITARY": 5,
+      "POLITICAL": 5,
+      "ECONOMIC": 4
+     }
+    },
+    "sun_rashi": {
+     "value": "Simha",
+     "historical_counts": {
+      "MILITARY": 16,
+      "POLITICAL": 15,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 111,
+    "POLITICAL": 88,
+    "ECONOMIC": 76
+   }
+  },
+  {
+   "date": "2026-09-17",
+   "features": {
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Vrischika",
+    "moon_nakshatra": "Jyeshtha",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Jyeshtha",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 121,
+    "POLITICAL": 92,
+    "ECONOMIC": 80
+   }
+  },
+  {
+   "date": "2026-09-18",
+   "features": {
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Vrischika",
+    "moon_nakshatra": "Jyeshtha",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 15,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Jyeshtha",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 116,
+    "POLITICAL": 97,
+    "ECONOMIC": 78
+   }
+  },
+  {
+   "date": "2026-09-19",
+   "features": {
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Dhanu",
+    "moon_nakshatra": "Mula",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "ketu",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 14,
+      "ECONOMIC": 22
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Dhanu",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 10,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Mula",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 5,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 113,
+    "POLITICAL": 82,
+    "ECONOMIC": 92
+   }
+  },
+  {
+   "date": "2026-09-20",
+   "features": {
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Dhanu",
+    "moon_nakshatra": "Purva Ashadha",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 23,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Dhanu",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 10,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Purva Ashadha",
+     "historical_counts": {
+      "MILITARY": 9,
+      "POLITICAL": 4,
+      "ECONOMIC": 7
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 120,
+    "POLITICAL": 90,
+    "ECONOMIC": 89
+   }
+  },
+  {
+   "date": "2026-09-21",
+   "features": {
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Makara",
+    "moon_nakshatra": "Uttara Ashadha",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Makara",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 18,
+      "ECONOMIC": 7
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Uttara Ashadha",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 7,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 109,
+    "POLITICAL": 95,
+    "ECONOMIC": 72
+   }
+  },
+  {
+   "date": "2026-09-22",
+   "features": {
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Makara",
+    "moon_nakshatra": "Shravana",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 24,
+      "POLITICAL": 19,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Makara",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 18,
+      "ECONOMIC": 7
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Shravana",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 2
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 115,
+    "POLITICAL": 98,
+    "ECONOMIC": 74
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "features": {
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "saturn",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Makara",
+    "moon_nakshatra": "Dhanishta",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mars",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 31,
+      "ECONOMIC": 17
+     }
+    },
+    "antardasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 21,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Makara",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 18,
+      "ECONOMIC": 7
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Dhanishta",
+     "historical_counts": {
+      "MILITARY": 6,
+      "POLITICAL": 9,
+      "ECONOMIC": 6
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 116,
+    "POLITICAL": 111,
+    "ECONOMIC": 78
+   }
+  },
+  {
+   "date": "2026-09-24",
+   "features": {
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Kumbha",
+    "moon_nakshatra": "Shatabhisha",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 13,
+      "POLITICAL": 28,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Kumbha",
+     "historical_counts": {
+      "MILITARY": 12,
+      "POLITICAL": 14,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Shatabhisha",
+     "historical_counts": {
+      "MILITARY": 4,
+      "POLITICAL": 6,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 104,
+    "POLITICAL": 96,
+    "ECONOMIC": 85
+   }
+  },
+  {
+   "date": "2026-09-25",
+   "features": {
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Kumbha",
+    "moon_nakshatra": "Purva Bhadrapada",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 27,
+      "POLITICAL": 19,
+      "ECONOMIC": 8
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Kumbha",
+     "historical_counts": {
+      "MILITARY": 12,
+      "POLITICAL": 14,
+      "ECONOMIC": 11
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Purva Bhadrapada",
+     "historical_counts": {
+      "MILITARY": 5,
+      "POLITICAL": 6,
+      "ECONOMIC": 3
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 119,
+    "POLITICAL": 87,
+    "ECONOMIC": 72
+   }
+  },
+  {
+   "date": "2026-09-26",
+   "features": {
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "venus",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Meena",
+    "moon_nakshatra": "Uttara Bhadrapada",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "saturn",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 17,
+      "ECONOMIC": 11
+     }
+    },
+    "antardasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 29,
+      "POLITICAL": 29,
+      "ECONOMIC": 20
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Meena",
+     "historical_counts": {
+      "MILITARY": 20,
+      "POLITICAL": 16,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Uttara Bhadrapada",
+     "historical_counts": {
+      "MILITARY": 8,
+      "POLITICAL": 8,
+      "ECONOMIC": 3
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 125,
+    "POLITICAL": 102,
+    "ECONOMIC": 71
+   }
+  },
+  {
+   "date": "2026-09-27",
+   "features": {
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "moon",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Meena",
+    "moon_nakshatra": "Revati",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "antardasha_lord": {
+     "value": "moon",
+     "historical_counts": {
+      "MILITARY": 19,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Meena",
+     "historical_counts": {
+      "MILITARY": 20,
+      "POLITICAL": 16,
+      "ECONOMIC": 10
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Revati",
+     "historical_counts": {
+      "MILITARY": 11,
+      "POLITICAL": 5,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 120,
+    "POLITICAL": 94,
+    "ECONOMIC": 64
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "features": {
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "rahu",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Mesha",
+    "moon_nakshatra": "Ashwini",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "ketu",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 14,
+      "ECONOMIC": 22
+     }
+    },
+    "antardasha_lord": {
+     "value": "rahu",
+     "historical_counts": {
+      "MILITARY": 31,
+      "POLITICAL": 42,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Mesha",
+     "historical_counts": {
+      "MILITARY": 10,
+      "POLITICAL": 21,
+      "ECONOMIC": 13
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Ashwini",
+     "historical_counts": {
+      "MILITARY": 2,
+      "POLITICAL": 5,
+      "ECONOMIC": 5
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 107,
+    "POLITICAL": 114,
+    "ECONOMIC": 88
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "features": {
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "jupiter",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Mesha",
+    "moon_nakshatra": "Bharani",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "venus",
+     "historical_counts": {
+      "MILITARY": 23,
+      "POLITICAL": 23,
+      "ECONOMIC": 19
+     }
+    },
+    "antardasha_lord": {
+     "value": "jupiter",
+     "historical_counts": {
+      "MILITARY": 25,
+      "POLITICAL": 27,
+      "ECONOMIC": 21
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Mesha",
+     "historical_counts": {
+      "MILITARY": 10,
+      "POLITICAL": 21,
+      "ECONOMIC": 13
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Bharani",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 10,
+      "ECONOMIC": 8
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 112,
+    "POLITICAL": 113,
+    "ECONOMIC": 88
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "features": {
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "mercury",
+    "ascendant_rashi": "Vrischika",
+    "moon_rashi": "Vrishabha",
+    "moon_nakshatra": "Krittika",
+    "sun_rashi": "Kanya"
+   },
+   "evidence": {
+    "mahadasha_lord": {
+     "value": "sun",
+     "historical_counts": {
+      "MILITARY": 17,
+      "POLITICAL": 22,
+      "ECONOMIC": 10
+     }
+    },
+    "antardasha_lord": {
+     "value": "mercury",
+     "historical_counts": {
+      "MILITARY": 28,
+      "POLITICAL": 16,
+      "ECONOMIC": 23
+     }
+    },
+    "ascendant_rashi": {
+     "value": "Vrischika",
+     "historical_counts": {
+      "MILITARY": 26,
+      "POLITICAL": 18,
+      "ECONOMIC": 15
+     }
+    },
+    "moon_rashi": {
+     "value": "Vrishabha",
+     "historical_counts": {
+      "MILITARY": 18,
+      "POLITICAL": 19,
+      "ECONOMIC": 12
+     }
+    },
+    "moon_nakshatra": {
+     "value": "Krittika",
+     "historical_counts": {
+      "MILITARY": 7,
+      "POLITICAL": 11
+     }
+    },
+    "sun_rashi": {
+     "value": "Kanya",
+     "historical_counts": {
+      "MILITARY": 21,
+      "POLITICAL": 14,
+      "ECONOMIC": 12
+     }
+    }
+   },
+   "resonance_score": {
+    "MILITARY": 117,
+    "POLITICAL": 100,
+    "ECONOMIC": 72
+   }
+  }
+ ],
+ "top_military_resonance_days": [
+  [
+   "2026-09-26",
+   {
+    "MILITARY": 125,
+    "POLITICAL": 102,
+    "ECONOMIC": 71
+   }
+  ],
+  [
+   "2026-09-06",
+   {
+    "MILITARY": 124,
+    "POLITICAL": 103,
+    "ECONOMIC": 71
+   }
+  ],
+  [
+   "2026-08-30",
+   {
+    "MILITARY": 122,
+    "POLITICAL": 115,
+    "ECONOMIC": 75
+   }
+  ],
+  [
+   "2026-09-13",
+   {
+    "MILITARY": 122,
+    "POLITICAL": 108,
+    "ECONOMIC": 78
+   }
+  ],
+  [
+   "2026-08-23",
+   {
+    "MILITARY": 121,
+    "POLITICAL": 98,
+    "ECONOMIC": 91
+   }
+  ]
+ ],
+ "top_political_resonance_days": [
+  [
+   "2026-09-05",
+   {
+    "MILITARY": 108,
+    "POLITICAL": 130,
+    "ECONOMIC": 85
+   }
+  ],
+  [
+   "2026-09-14",
+   {
+    "MILITARY": 102,
+    "POLITICAL": 117,
+    "ECONOMIC": 88
+   }
+  ],
+  [
+   "2026-08-27",
+   {
+    "MILITARY": 116,
+    "POLITICAL": 115,
+    "ECONOMIC": 84
+   }
+  ],
+  [
+   "2026-08-30",
+   {
+    "MILITARY": 122,
+    "POLITICAL": 115,
+    "ECONOMIC": 75
+   }
+  ],
+  [
+   "2026-09-03",
+   {
+    "MILITARY": 113,
+    "POLITICAL": 114,
+    "ECONOMIC": 69
+   }
+  ]
+ ],
+ "top_economic_resonance_days": [
+  [
+   "2026-09-19",
+   {
+    "MILITARY": 113,
+    "POLITICAL": 82,
+    "ECONOMIC": 92
+   }
+  ],
+  [
+   "2026-08-23",
+   {
+    "MILITARY": 121,
+    "POLITICAL": 98,
+    "ECONOMIC": 91
+   }
+  ],
+  [
+   "2026-09-02",
+   {
+    "MILITARY": 110,
+    "POLITICAL": 103,
+    "ECONOMIC": 90
+   }
+  ],
+  [
+   "2026-09-20",
+   {
+    "MILITARY": 120,
+    "POLITICAL": 90,
+    "ECONOMIC": 89
+   }
+  ],
+  [
+   "2026-09-01",
+   {
+    "MILITARY": 94,
+    "POLITICAL": 94,
+    "ECONOMIC": 88
+   }
+  ]
+ ],
+ "disclaimer": "This is an ASTROLOGICAL CALCULATION -- a mechanical pattern-match of a future date's kundli/Mahadasha features against an unvalidated, in-sample table of 519 historical events (themselves computed from an ASSUMED noon local time and a longitude-approximated timezone, not researched exact times). It is NOT a forecast, NOT a statistically validated prediction, and NOT something to be relied on for any real-world decision. Astrowatch's own blind-backtest experiment (ASTROWATCH-BT-001, a separate and more rigorous pipeline) found that its astrological rule set did not predict real event dates better than chance (permutation p=1.0). Nothing below overrides that result -- treat this purely as a description of what a mechanical pattern-match algorithm outputs when pointed at this date range, not as evidence about what will actually happen in the United States in this window."
+}

@@ -1,0 +1,77 @@
+{
+  "jd_ut": 2461289.1666666665,
+  "latitude": 38.9072,
+  "longitude": -77.0369,
+  "chart_features": {
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "moon",
+    "ascendant_rashi": "Tula",
+    "ascendant_nakshatra": "Vishakha",
+    "moon_rashi": "Mithuna",
+    "moon_nakshatra": "Mrigashira",
+    "sun_rashi": "Simha"
+  },
+  "evidence": {
+    "mahadasha_lord": {
+      "value": "mars",
+      "historical_counts": {
+        "MILITARY": 27,
+        "POLITICAL": 31,
+        "ECONOMIC": 17
+      },
+      "n": 75
+    },
+    "antardasha_lord": {
+      "value": "moon",
+      "historical_counts": {
+        "MILITARY": 19,
+        "POLITICAL": 22,
+        "ECONOMIC": 10
+      },
+      "n": 51
+    },
+    "ascendant_rashi": {
+      "value": "Tula",
+      "historical_counts": {
+        "MILITARY": 26,
+        "POLITICAL": 17,
+        "ECONOMIC": 18
+      },
+      "n": 61
+    },
+    "moon_rashi": {
+      "value": "Mithuna",
+      "historical_counts": {
+        "MILITARY": 18,
+        "POLITICAL": 18,
+        "ECONOMIC": 12
+      },
+      "n": 48
+    },
+    "moon_nakshatra": {
+      "value": "Mrigashira",
+      "historical_counts": {
+        "MILITARY": 10,
+        "POLITICAL": 12,
+        "ECONOMIC": 8
+      },
+      "n": 30
+    },
+    "sun_rashi": {
+      "value": "Simha",
+      "historical_counts": {
+        "MILITARY": 16,
+        "POLITICAL": 15,
+        "ECONOMIC": 12
+      },
+      "n": 43
+    }
+  },
+  "resonance_score": {
+    "MILITARY": 116,
+    "POLITICAL": 115,
+    "ECONOMIC": 77
+  },
+  "label": "ASTROLOGICAL CALCULATION -- not a forecast, not to be relied on",
+  "disclaimer": "This is an ASTROLOGICAL CALCULATION -- a mechanical pattern-match of a future date's kundli/Mahadasha features against an unvalidated, in-sample table of 519 historical events (themselves computed from an ASSUMED noon local time and a longitude-approximated timezone, not researched exact times). It is NOT a forecast, NOT a statistically validated prediction, and NOT something to be relied on for any real-world decision. Astrowatch's own blind-backtest experiment (ASTROWATCH-BT-001, a separate and more rigorous pipeline) found that its astrological rule set did not predict real event dates better than chance (permutation p=1.0). Nothing below overrides that result -- treat this purely as a description of what a mechanical pattern-match algorithm outputs when pointed at this date range, not as evidence about what will actually happen in the United States in this window."
+}

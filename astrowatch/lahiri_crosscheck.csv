@@ -1,0 +1,14 @@
+date_label,jd_ut,our_linear_model_deg,independent_value_deg,difference_arcsec,source,method,status
+1900-01-01 00:00 UT,2415020.5,22.475466,22.465373,36.3,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE
+1950-01-01 00:00 UT,2433282.5,23.164334,23.157808,23.5,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE
+1956-01-01 00:00 UT,2435473.5,23.246982,23.247365,-1.4,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",ROUNDING
+1956-03-21 00:00 UT (our anchor date),2435553.5,23.250000,23.250221,-0.8,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE
+1956-06-01 00:00 UT,2435625.5,23.252716,23.252598,0.4,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",ROUNDING
+1956-09-22 00:00 UT,2435738.5,23.256978,23.256815,0.6,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",ROUNDING
+1956-12-31 00:00 UT,2435838.5,23.260751,23.260637,0.4,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",ROUNDING
+1975-01-01 00:00 UT,2442413.5,23.508770,23.512558,-13.6,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE
+2000-01-01 00:00 UT,2451544.5,23.853205,23.853204,0.0,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",ROUNDING
+2000-01-01 12:00 UT (our anchor date -- J2000.0),2451545.0,23.853222,23.853222,0.0,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",exact by construction (confirmed live)
+2026-01-01 00:00 UT,2461041.5,24.211442,24.221810,-37.3,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE
+2026-08-12 00:00 UT,2461264.5,24.219860,24.231567,-42.1,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE
+2050-01-01 00:00 UT,2469807.5,24.542111,24.559827,-63.8,astro.com swetest.cgi (live fetch, this session),Swiss Ephemeris 2.10.03 sidereal mode 1 "Lahiri",EXPECTED_METHODOLOGICAL_DIFFERENCE

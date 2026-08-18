@@ -1,0 +1,7544 @@
+{
+ "generated_for_window_start": "2026-08-17",
+ "generated_for_window_end": "2027-09-21",
+ "disclaimer": "Astrological calculation, not a forecast. Unvalidated pattern-based reading; Astrowatch's own backtest (BT-001) found no real predictive edge. Not to be relied on for real decisions.",
+ "graha_theme": {
+  "sun": "authority, visibility and executive action",
+  "moon": "public mood and emotional currents",
+  "mars": "conflict, assertiveness and sudden action",
+  "mercury": "communication, negotiation and information flow",
+  "jupiter": "law, expansion and institutional matters",
+  "venus": "diplomacy, trade and alliances",
+  "saturn": "delay, restriction and structural pressure",
+  "rahu": "disruption, ambition and unconventional moves",
+  "ketu": "withdrawal, loose ends and quiet transitions"
+ },
+ "trump_segments": [
+  {
+   "start": "2026-08-17",
+   "end": "2027-05-30",
+   "mahadasha_lord": "jupiter",
+   "antardasha_lord": "venus"
+  },
+  {
+   "start": "2027-05-30",
+   "end": "2027-09-21",
+   "mahadasha_lord": "jupiter",
+   "antardasha_lord": "sun"
+  }
+ ],
+ "modi_segments": [
+  {
+   "start": "2026-08-17",
+   "end": "2027-02-15",
+   "mahadasha_lord": "mars",
+   "antardasha_lord": "venus"
+  },
+  {
+   "start": "2027-02-15",
+   "end": "2027-06-23",
+   "mahadasha_lord": "mars",
+   "antardasha_lord": "sun"
+  },
+  {
+   "start": "2027-06-23",
+   "end": "2027-09-21",
+   "mahadasha_lord": "mars",
+   "antardasha_lord": "moon"
+  }
+ ],
+ "weekly_global_resonance": [
+  {
+   "date": "2026-08-17",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Chitra",
+     "sun_rashi": "Simha"
+    },
+    "score": 94
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Chitra",
+     "sun_rashi": "Simha"
+    },
+    "score": 68
+   }
+  },
+  {
+   "date": "2026-08-24",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Purva Ashadha",
+     "sun_rashi": "Simha"
+    },
+    "score": 68
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Purva Ashadha",
+     "sun_rashi": "Simha"
+    },
+    "score": 76
+   }
+  },
+  {
+   "date": "2026-08-31",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Revati",
+     "sun_rashi": "Simha"
+    },
+    "score": 97
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Revati",
+     "sun_rashi": "Simha"
+    },
+    "score": 60
+   }
+  },
+  {
+   "date": "2026-09-07",
+   "political": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Punarvasu",
+     "sun_rashi": "Simha"
+    },
+    "score": 93
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Punarvasu",
+     "sun_rashi": "Simha"
+    },
+    "score": 50
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Simha"
+    },
+    "score": 120
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Simha"
+    },
+    "score": 73
+   }
+  },
+  {
+   "date": "2026-09-21",
+   "political": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Uttara Ashadha",
+     "sun_rashi": "Kanya"
+    },
+    "score": 82
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Uttara Ashadha",
+     "sun_rashi": "Kanya"
+    },
+    "score": 55
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "political": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Ashwini",
+     "sun_rashi": "Kanya"
+    },
+    "score": 76
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Ashwini",
+     "sun_rashi": "Kanya"
+    },
+    "score": 62
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "political": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Pushya",
+     "sun_rashi": "Kanya"
+    },
+    "score": 88
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Pushya",
+     "sun_rashi": "Kanya"
+    },
+    "score": 54
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Kanya"
+    },
+    "score": 106
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Kanya"
+    },
+    "score": 72
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "political": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Tula"
+    },
+    "score": 87
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Tula"
+    },
+    "score": 46
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "political": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Ashwini",
+     "sun_rashi": "Tula"
+    },
+    "score": 76
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Ashwini",
+     "sun_rashi": "Tula"
+    },
+    "score": 73
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Ashlesha",
+     "sun_rashi": "Tula"
+    },
+    "score": 98
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Ashlesha",
+     "sun_rashi": "Tula"
+    },
+    "score": 49
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "political": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Vishakha",
+     "sun_rashi": "Tula"
+    },
+    "score": 84
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Vishakha",
+     "sun_rashi": "Tula"
+    },
+    "score": 56
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "political": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Tula"
+    },
+    "score": 81
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Tula"
+    },
+    "score": 59
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Bharani",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 102
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Bharani",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 68
+   }
+  },
+  {
+   "date": "2026-11-30",
+   "political": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Magha",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 74
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Magha",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 64
+   }
+  },
+  {
+   "date": "2026-12-07",
+   "political": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Anuradha",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 81
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Anuradha",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 54
+   }
+  },
+  {
+   "date": "2026-12-14",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Dhanishta",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 106
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Dhanishta",
+     "sun_rashi": "Vrischika"
+    },
+    "score": 58
+   }
+  },
+  {
+   "date": "2026-12-21",
+   "political": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Krittika",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 112
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Krittika",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 58
+   }
+  },
+  {
+   "date": "2026-12-28",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Purva Phalguni",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 90
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Purva Phalguni",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 72
+   }
+  },
+  {
+   "date": "2027-01-04",
+   "political": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Anuradha",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 97
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Anuradha",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 61
+   }
+  },
+  {
+   "date": "2027-01-11",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Kumbha",
+     "moon_nakshatra": "Dhanishta",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 92
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Kumbha",
+     "moon_nakshatra": "Dhanishta",
+     "sun_rashi": "Dhanu"
+    },
+    "score": 58
+   }
+  },
+  {
+   "date": "2027-01-18",
+   "political": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Vrishabha",
+     "moon_nakshatra": "Krittika",
+     "sun_rashi": "Makara"
+    },
+    "score": 104
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Vrishabha",
+     "moon_nakshatra": "Krittika",
+     "sun_rashi": "Makara"
+    },
+    "score": 50
+   }
+  },
+  {
+   "date": "2027-01-25",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Purva Phalguni",
+     "sun_rashi": "Makara"
+    },
+    "score": 89
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Purva Phalguni",
+     "sun_rashi": "Makara"
+    },
+    "score": 67
+   }
+  },
+  {
+   "date": "2027-02-01",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "sun",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Jyeshtha",
+     "sun_rashi": "Makara"
+    },
+    "score": 77
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "sun",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Jyeshtha",
+     "sun_rashi": "Makara"
+    },
+    "score": 43
+   }
+  },
+  {
+   "date": "2027-02-08",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Kumbha",
+     "moon_nakshatra": "Shatabhisha",
+     "sun_rashi": "Makara"
+    },
+    "score": 100
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Kumbha",
+     "moon_nakshatra": "Shatabhisha",
+     "sun_rashi": "Makara"
+    },
+    "score": 63
+   }
+  },
+  {
+   "date": "2027-02-15",
+   "political": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrishabha",
+     "moon_nakshatra": "Rohini",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 78
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrishabha",
+     "moon_nakshatra": "Rohini",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 66
+   }
+  },
+  {
+   "date": "2027-02-22",
+   "political": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Uttara Phalguni",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 94
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Simha",
+     "moon_nakshatra": "Uttara Phalguni",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 58
+   }
+  },
+  {
+   "date": "2027-03-01",
+   "political": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Mula",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 52
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Mula",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 57
+   }
+  },
+  {
+   "date": "2027-03-08",
+   "political": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Kumbha",
+     "moon_nakshatra": "Purva Bhadrapada",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 68
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Kumbha",
+     "moon_nakshatra": "Purva Bhadrapada",
+     "sun_rashi": "Kumbha"
+    },
+    "score": 52
+   }
+  },
+  {
+   "date": "2027-03-15",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrishabha",
+     "moon_nakshatra": "Mrigashira",
+     "sun_rashi": "Meena"
+    },
+    "score": 94
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrishabha",
+     "moon_nakshatra": "Mrigashira",
+     "sun_rashi": "Meena"
+    },
+    "score": 75
+   }
+  },
+  {
+   "date": "2027-03-22",
+   "political": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Kanya",
+     "moon_nakshatra": "Uttara Phalguni",
+     "sun_rashi": "Meena"
+    },
+    "score": 79
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Kanya",
+     "moon_nakshatra": "Uttara Phalguni",
+     "sun_rashi": "Meena"
+    },
+    "score": 62
+   }
+  },
+  {
+   "date": "2027-03-29",
+   "political": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Mula",
+     "sun_rashi": "Meena"
+    },
+    "score": 67
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Mula",
+     "sun_rashi": "Meena"
+    },
+    "score": 82
+   }
+  },
+  {
+   "date": "2027-04-05",
+   "political": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Purva Bhadrapada",
+     "sun_rashi": "Meena"
+    },
+    "score": 94
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Purva Bhadrapada",
+     "sun_rashi": "Meena"
+    },
+    "score": 59
+   }
+  },
+  {
+   "date": "2027-04-12",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Mithuna",
+     "moon_nakshatra": "Ardra",
+     "sun_rashi": "Meena"
+    },
+    "score": 93
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Mithuna",
+     "moon_nakshatra": "Ardra",
+     "sun_rashi": "Meena"
+    },
+    "score": 75
+   }
+  },
+  {
+   "date": "2027-04-19",
+   "political": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Kanya",
+     "moon_nakshatra": "Hasta",
+     "sun_rashi": "Mesha"
+    },
+    "score": 68
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Kanya",
+     "moon_nakshatra": "Hasta",
+     "sun_rashi": "Mesha"
+    },
+    "score": 64
+   }
+  },
+  {
+   "date": "2027-04-26",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Purva Ashadha",
+     "sun_rashi": "Mesha"
+    },
+    "score": 69
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Purva Ashadha",
+     "sun_rashi": "Mesha"
+    },
+    "score": 61
+   }
+  },
+  {
+   "date": "2027-05-03",
+   "political": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Uttara Bhadrapada",
+     "sun_rashi": "Mesha"
+    },
+    "score": 73
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Uttara Bhadrapada",
+     "sun_rashi": "Mesha"
+    },
+    "score": 44
+   }
+  },
+  {
+   "date": "2027-05-10",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "mars",
+     "moon_rashi": "Mithuna",
+     "moon_nakshatra": "Ardra",
+     "sun_rashi": "Mesha"
+    },
+    "score": 80
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "mars",
+     "moon_rashi": "Mithuna",
+     "moon_nakshatra": "Ardra",
+     "sun_rashi": "Mesha"
+    },
+    "score": 55
+   }
+  },
+  {
+   "date": "2027-05-17",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Kanya",
+     "moon_nakshatra": "Chitra",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 96
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Kanya",
+     "moon_nakshatra": "Chitra",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 61
+   }
+  },
+  {
+   "date": "2027-05-24",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Purva Ashadha",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 68
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Dhanu",
+     "moon_nakshatra": "Purva Ashadha",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 74
+   }
+  },
+  {
+   "date": "2027-05-31",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Revati",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 65
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Revati",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 43
+   }
+  },
+  {
+   "date": "2027-06-07",
+   "political": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Mithuna",
+     "moon_nakshatra": "Punarvasu",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 80
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "moon",
+     "moon_rashi": "Mithuna",
+     "moon_nakshatra": "Punarvasu",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 43
+   }
+  },
+  {
+   "date": "2027-06-14",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 120
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Vrishabha"
+    },
+    "score": 71
+   }
+  },
+  {
+   "date": "2027-06-21",
+   "political": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Uttara Ashadha",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 95
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "sun",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Uttara Ashadha",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 59
+   }
+  },
+  {
+   "date": "2027-06-28",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Revati",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 88
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "jupiter",
+     "moon_rashi": "Meena",
+     "moon_nakshatra": "Revati",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 64
+   }
+  },
+  {
+   "date": "2027-07-05",
+   "political": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Pushya",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 82
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Pushya",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 57
+   }
+  },
+  {
+   "date": "2027-07-12",
+   "political": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 113
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "rahu",
+     "antardasha_lord": "venus",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Swati",
+     "sun_rashi": "Mithuna"
+    },
+    "score": 76
+   }
+  },
+  {
+   "date": "2027-07-19",
+   "political": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "mars",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Karka"
+    },
+    "score": 73
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "mars",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Karka"
+    },
+    "score": 46
+   }
+  },
+  {
+   "date": "2027-07-26",
+   "political": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Ashwini",
+     "sun_rashi": "Karka"
+    },
+    "score": 95
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "ketu",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Ashwini",
+     "sun_rashi": "Karka"
+    },
+    "score": 73
+   }
+  },
+  {
+   "date": "2027-08-02",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Ashlesha",
+     "sun_rashi": "Karka"
+    },
+    "score": 65
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "mercury",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Ashlesha",
+     "sun_rashi": "Karka"
+    },
+    "score": 53
+   }
+  },
+  {
+   "date": "2027-08-09",
+   "political": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Vishakha",
+     "sun_rashi": "Karka"
+    },
+    "score": 71
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "jupiter",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Tula",
+     "moon_nakshatra": "Vishakha",
+     "sun_rashi": "Karka"
+    },
+    "score": 41
+   }
+  },
+  {
+   "date": "2027-08-16",
+   "political": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Karka"
+    },
+    "score": 68
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "moon",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Shravana",
+     "sun_rashi": "Karka"
+    },
+    "score": 44
+   }
+  },
+  {
+   "date": "2027-08-23",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "sun",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Bharani",
+     "sun_rashi": "Simha"
+    },
+    "score": 79
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "sun",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Bharani",
+     "sun_rashi": "Simha"
+    },
+    "score": 57
+   }
+  },
+  {
+   "date": "2027-08-30",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Ashlesha",
+     "sun_rashi": "Simha"
+    },
+    "score": 93
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mercury",
+     "antardasha_lord": "rahu",
+     "moon_rashi": "Karka",
+     "moon_nakshatra": "Ashlesha",
+     "sun_rashi": "Simha"
+    },
+    "score": 51
+   }
+  },
+  {
+   "date": "2027-09-06",
+   "political": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Anuradha",
+     "sun_rashi": "Simha"
+    },
+    "score": 75
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "saturn",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Vrischika",
+     "moon_nakshatra": "Anuradha",
+     "sun_rashi": "Simha"
+    },
+    "score": 59
+   }
+  },
+  {
+   "date": "2027-09-13",
+   "political": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Dhanishta",
+     "sun_rashi": "Simha"
+    },
+    "score": 94
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "mars",
+     "antardasha_lord": "saturn",
+     "moon_rashi": "Makara",
+     "moon_nakshatra": "Dhanishta",
+     "sun_rashi": "Simha"
+    },
+    "score": 63
+   }
+  },
+  {
+   "date": "2027-09-20",
+   "political": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Bharani",
+     "sun_rashi": "Kanya"
+    },
+    "score": 78
+   },
+   "economic": {
+    "features": {
+     "mahadasha_lord": "venus",
+     "antardasha_lord": "ketu",
+     "moon_rashi": "Mesha",
+     "moon_nakshatra": "Bharani",
+     "sun_rashi": "Kanya"
+    },
+    "score": 58
+   }
+  }
+ ],
+ "athlete_pool": [
+  {
+   "name": "Pele",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Diego Maradona",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Lionel Messi",
+   "sport": "football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Cristiano Ronaldo",
+   "sport": "football",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Neymar",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Kylian Mbappe",
+   "sport": "football",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Erling Haaland",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "David Beckham",
+   "sport": "football",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Zinedine Zidane",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Ronaldinho",
+   "sport": "football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Luka Modric",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Kevin De Bruyne",
+   "sport": "football",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Mohamed Salah",
+   "sport": "football",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Robert Lewandowski",
+   "sport": "football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Virat Kohli",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Sachin Tendulkar",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "MS Dhoni",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Rohit Sharma",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Kapil Dev",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Sir Don Bradman",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Vivian Richards",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Shane Warne",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Babar Azam",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Muhammad Ali",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Mike Tyson",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Floyd Mayweather",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Manny Pacquiao",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Michael Jordan",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "LeBron James",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Kobe Bryant",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Magic Johnson",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Stephen Curry",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Serena Williams",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Venus Williams",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Roger Federer",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Rafael Nadal",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Novak Djokovic",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Usain Bolt",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Michael Phelps",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Simone Biles",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Tiger Woods",
+   "sport": "golf",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Lewis Hamilton",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Michael Schumacher",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Neeraj Chopra",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "P. V. Sindhu",
+   "sport": "badminton",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Saina Nehwal",
+   "sport": "badminton",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Andre Agassi",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Pete Sampras",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Franz Beckenbauer",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Johan Cruyff",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "George Best",
+   "sport": "football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Paolo Maldini",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Andres Iniesta",
+   "sport": "football",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Xavi Hernandez",
+   "sport": "football",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Thierry Henry",
+   "sport": "football",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Ronaldo Nazario",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Zico",
+   "sport": "football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Garrincha",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Sunil Chhetri",
+   "sport": "football",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Vinicius Junior",
+   "sport": "football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Jude Bellingham",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Harry Kane",
+   "sport": "football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Sunil Gavaskar",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Rahul Dravid",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Sourav Ganguly",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Anil Kumble",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Yuvraj Singh",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Ricky Ponting",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Brian Lara",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Wasim Akram",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Jacques Kallis",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Joe Root",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Ben Stokes",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Kane Williamson",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Hardik Pandya",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Jasprit Bumrah",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Shane Bond",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Muttiah Muralitharan",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Jonty Rhodes",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Evander Holyfield",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "George Foreman",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Sugar Ray Robinson",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Conor McGregor",
+   "sport": "mma",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Khabib Nurmagomedov",
+   "sport": "mma",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Kobe Bryant Jr",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Shaquille O'Neal",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Kareem Abdul-Jabbar",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Kevin Durant",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Giannis Antetokounmpo",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Simona Halep",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Maria Sharapova",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Andy Murray",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Naomi Osaka",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Carlos Alcaraz",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Nadia Comaneci",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Katie Ledecky",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Mark Spitz",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Carl Lewis",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Jesse Owens",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Florence Griffith-Joyner",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Sebastian Vettel",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Max Verstappen",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Ayrton Senna",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Wayne Gretzky",
+   "sport": "ice_hockey",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Babe Ruth",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Jackie Robinson",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Eliud Kipchoge",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Allyson Felix",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Ronnie O'Sullivan",
+   "sport": "snooker",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Larry Bird",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Jack Nicklaus",
+   "sport": "golf",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Don Bradman",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Sidney Crosby",
+   "sport": "ice_hockey",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Derek Jeter",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Carolina Marin",
+   "sport": "badminton",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "PV Sindhu",
+   "sport": "badminton",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Garry Kasparov",
+   "sport": "chess",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Magnus Carlsen",
+   "sport": "chess",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Bobby Fischer",
+   "sport": "chess",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Judit Polgar",
+   "sport": "chess",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Boris Becker",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Steffi Graf",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Martina Navratilova",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Billie Jean King",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Rod Laver",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Niki Lauda",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Alain Prost",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Fernando Alonso",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Valentino Rossi",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Nolan Ryan",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Hank Aaron",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Ichiro Suzuki",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Shohei Ohtani",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Bjorn Borg",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Mark Cavendish",
+   "sport": "cycling",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Lance Armstrong",
+   "sport": "cycling",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Eddy Merckx",
+   "sport": "cycling",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Haile Gebrselassie",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Roberto Carlos",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Andrea Pirlo",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Kaka",
+   "sport": "football",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Tim Duncan",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Ken Griffey Jr.",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Tom Brady",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Joe Montana",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Peyton Manning",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Jerry Rice",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Walter Payton",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Arnold Palmer",
+   "sport": "golf",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Rory McIlroy",
+   "sport": "golf",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Imran Khan",
+   "sport": "cricket",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Wayne Rooney",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Karim Benzema",
+   "sport": "football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Luis Suarez",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Sugar Ray Leonard",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Marvin Hagler",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Willie Mays",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Mickey Mantle",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Lou Gehrig",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Barry Bonds",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Allen Iverson",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Dwyane Wade",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Dirk Nowitzki",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Yao Ming",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Kawhi Leonard",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Vince Lombardi",
+   "sport": "american_football_coach",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Bo Jackson",
+   "sport": "multi_sport",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Deion Sanders",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Yuzuru Hanyu",
+   "sport": "figure_skating",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Katarina Witt",
+   "sport": "figure_skating",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "John McEnroe",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Chris Evert",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Coco Gauff",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Jonny Wilkinson",
+   "sport": "rugby",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Dan Carter",
+   "sport": "rugby",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Richie McCaw",
+   "sport": "rugby",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Jonah Lomu",
+   "sport": "rugby",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Martina Hingis",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Monica Seles",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Iga Swiatek",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Wilma Rudolph",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Michael Johnson",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Mo Farah",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Kenenisa Bekele",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Yelena Isinbayeva",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Caster Semenya",
+   "sport": "athletics",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Ian Thorpe",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Missy Franklin",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Adam Peaty",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Alexei Nemov",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Larisa Latynina",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Kohei Uchimura",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Sunisa Lee",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Gordie Howe",
+   "sport": "hockey",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Mario Lemieux",
+   "sport": "hockey",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Bobby Orr",
+   "sport": "hockey",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Alex Ovechkin",
+   "sport": "hockey",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Ty Cobb",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Cy Young",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Roberto Clemente",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "David Ortiz",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Fernando Valenzuela",
+   "sport": "baseball",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Brett Favre",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Aaron Rodgers",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Patrick Mahomes",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "J.J. Watt",
+   "sport": "american_football",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Annika Sorenstam",
+   "sport": "golf",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Nancy Lopez",
+   "sport": "golf",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Seve Ballesteros",
+   "sport": "golf",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Gary Player",
+   "sport": "golf",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Jackie Stewart",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Dale Earnhardt",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Marc Marquez",
+   "sport": "motorsport",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Greg LeMond",
+   "sport": "cycling",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Chris Froome",
+   "sport": "cycling",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Miguel Indurain",
+   "sport": "cycling",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Yusra Mardini",
+   "sport": "swimming",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Ronda Rousey",
+   "sport": "mma",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Israel Adesanya",
+   "sport": "mma",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Vasyl Lomachenko",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Canelo Alvarez",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Anthony Joshua",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Deontay Wilder",
+   "sport": "boxing",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Marta Vieira da Silva",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Mia Hamm",
+   "sport": "football",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Abby Wambach",
+   "sport": "football",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Megan Rapinoe",
+   "sport": "football",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Alex Morgan",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Sam Kerr",
+   "sport": "football",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Pat Summitt",
+   "sport": "basketball_coach",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "John Wooden",
+   "sport": "basketball_coach",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Phil Jackson",
+   "sport": "basketball_coach",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Pep Guardiola",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Jose Mourinho",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Alex Ferguson",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Carlo Ancelotti",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Jurgen Klopp",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Vince Carter",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Tracy McGrady",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Paul Pierce",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Chris Paul",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Russell Westbrook",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "James Harden",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "rahu"
+  },
+  {
+   "name": "Luka Doncic",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Nikola Jokic",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Victor Wembanyama",
+   "sport": "basketball",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Lindsey Vonn",
+   "sport": "skiing",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Bode Miller",
+   "sport": "skiing",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Shaun White",
+   "sport": "snowboarding",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Chloe Kim",
+   "sport": "snowboarding",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Apolo Ohno",
+   "sport": "speed_skating",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Eric Heiden",
+   "sport": "speed_skating",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Jean-Claude Killy",
+   "sport": "skiing",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Sonja Henie",
+   "sport": "figure_skating",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Peggy Fleming",
+   "sport": "figure_skating",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Scott Hamilton",
+   "sport": "figure_skating",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Gabby Douglas",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Aly Raisman",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Mary Lou Retton",
+   "sport": "gymnastics",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Ashleigh Barty",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Angelique Kerber",
+   "sport": "tennis",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "Diego Simeone",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "moon"
+  },
+  {
+   "name": "Marcelo Bielsa",
+   "sport": "football_coach",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Carli Lloyd",
+   "sport": "football",
+   "natal_mahadasha_lord": "sun"
+  },
+  {
+   "name": "Hope Solo",
+   "sport": "football",
+   "natal_mahadasha_lord": "saturn"
+  },
+  {
+   "name": "Didier Drogba",
+   "sport": "football",
+   "natal_mahadasha_lord": "mercury"
+  },
+  {
+   "name": "Samuel Eto'o",
+   "sport": "football",
+   "natal_mahadasha_lord": "venus"
+  },
+  {
+   "name": "George Weah",
+   "sport": "football",
+   "natal_mahadasha_lord": "ketu"
+  },
+  {
+   "name": "Sadio Mane",
+   "sport": "football",
+   "natal_mahadasha_lord": "jupiter"
+  },
+  {
+   "name": "Son Heung-min",
+   "sport": "football",
+   "natal_mahadasha_lord": "mars"
+  },
+  {
+   "name": "Hidetoshi Nakata",
+   "sport": "football",
+   "natal_mahadasha_lord": "rahu"
+  }
+ ],
+ "world_leader_segments": {
+  "Vladimir Putin": [
+   {
+    "start": "2026-08-17",
+    "end": "2027-09-21",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "venus"
+   }
+  ],
+  "Xi Jinping": [
+   {
+    "start": "2026-08-17",
+    "end": "2027-09-21",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "rahu"
+   }
+  ],
+  "Emmanuel Macron": [
+   {
+    "start": "2026-08-17",
+    "end": "2027-09-21",
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "jupiter"
+   }
+  ],
+  "Andy Burnham": [
+   {
+    "start": "2026-08-17",
+    "end": "2026-08-29",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "saturn"
+   },
+   {
+    "start": "2026-08-29",
+    "end": "2027-09-21",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "mercury"
+   }
+  ],
+  "Friedrich Merz": [
+   {
+    "start": "2026-08-17",
+    "end": "2027-07-04",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "mars"
+   },
+   {
+    "start": "2027-07-04",
+    "end": "2027-09-21",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "rahu"
+   }
+  ],
+  "Benjamin Netanyahu": [
+   {
+    "start": "2026-08-17",
+    "end": "2026-09-24",
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "sun"
+   },
+   {
+    "start": "2026-09-24",
+    "end": "2027-04-25",
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "moon"
+   },
+   {
+    "start": "2027-04-25",
+    "end": "2027-09-21",
+    "mahadasha_lord": "ketu",
+    "antardasha_lord": "mars"
+   }
+  ],
+  "Volodymyr Zelenskyy": [
+   {
+    "start": "2026-08-17",
+    "end": "2027-01-21",
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "mercury"
+   },
+   {
+    "start": "2027-01-21",
+    "end": "2027-08-22",
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "ketu"
+   },
+   {
+    "start": "2027-08-22",
+    "end": "2027-09-21",
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "venus"
+   }
+  ],
+  "Luiz Inacio Lula da Silva": [
+   {
+    "start": "2026-08-17",
+    "end": "2026-09-02",
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "moon"
+   },
+   {
+    "start": "2026-09-02",
+    "end": "2027-09-21",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "rahu"
+   }
+  ]
+ },
+ "nation_segments": {
+  "United States": [
+   {
+    "start": "2024-10-16",
+    "end": "2026-08-17",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "jupiter"
+   }
+  ],
+  "India": [
+   {
+    "start": "2026-02-06",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "rahu"
+   }
+  ],
+  "China": [
+   {
+    "start": "2025-10-12",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "ketu"
+   }
+  ],
+  "Russia": [
+   {
+    "start": "2025-12-11",
+    "end": "2026-08-17",
+    "mahadasha_lord": "sun",
+    "antardasha_lord": "mercury"
+   }
+  ],
+  "United Kingdom": [
+   {
+    "start": "2024-07-11",
+    "end": "2026-08-17",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "venus"
+   }
+  ],
+  "France": [
+   {
+    "start": "2026-03-13",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "moon"
+   }
+  ],
+  "Germany": [
+   {
+    "start": "2026-07-13",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "moon"
+   }
+  ],
+  "Japan": [
+   {
+    "start": "2025-11-18",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "saturn"
+   }
+  ],
+  "Brazil": [
+   {
+    "start": "2026-08-13",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "jupiter"
+   }
+  ],
+  "South Africa": [
+   {
+    "start": "2025-08-21",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mars",
+    "antardasha_lord": "rahu"
+   }
+  ],
+  "Nigeria": [
+   {
+    "start": "2024-06-02",
+    "end": "2026-08-17",
+    "mahadasha_lord": "mercury",
+    "antardasha_lord": "venus"
+   }
+  ],
+  "Egypt": [
+   {
+    "start": "2026-08-07",
+    "end": "2026-08-17",
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "saturn"
+   }
+  ],
+  "Israel": [
+   {
+    "start": "2026-07-08",
+    "end": "2026-08-17",
+    "mahadasha_lord": "moon",
+    "antardasha_lord": "ketu"
+   }
+  ],
+  "Ukraine": [
+   {
+    "start": "2026-06-04",
+    "end": "2026-08-17",
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "ketu"
+   }
+  ],
+  "Pakistan": [
+   {
+    "start": "2023-12-27",
+    "end": "2026-08-17",
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "mercury"
+   }
+  ],
+  "Indonesia": [
+   {
+    "start": "2026-06-26",
+    "end": "2026-08-17",
+    "mahadasha_lord": "rahu",
+    "antardasha_lord": "rahu"
+   }
+  ],
+  "Mexico": [
+   {
+    "start": "2025-05-29",
+    "end": "2026-08-17",
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "jupiter"
+   }
+  ],
+  "Canada": [
+   {
+    "start": "2024-02-03",
+    "end": "2026-08-17",
+    "mahadasha_lord": "saturn",
+    "antardasha_lord": "mercury"
+   }
+  ],
+  "Australia": [
+   {
+    "start": "2023-11-29",
+    "end": "2026-08-17",
+    "mahadasha_lord": "venus",
+    "antardasha_lord": "saturn"
+   }
+  ],
+  "South Korea": [
+   {
+    "start": "2026-06-30",
+    "end": "2026-08-17",
+    "mahadasha_lord": "jupiter",
+    "antardasha_lord": "sun"
+   }
+  ]
+ },
+ "nations_pattern_ratios": {
+  "ketu": 1.16,
+  "venus": 1.14,
+  "sun": 1.08,
+  "moon": 0.65,
+  "mars": 0.69,
+  "rahu": 0.9,
+  "jupiter": 1.11,
+  "saturn": 0.77,
+  "mercury": 1.34
+ },
+ "archetype_ratios_by_field": {
+  "ACTOR": {
+   "ketu": 1.47,
+   "venus": 0.65,
+   "sun": 2.29,
+   "moon": 1.58,
+   "mars": 1.86,
+   "rahu": 0.99,
+   "jupiter": 0.64,
+   "saturn": 0.69,
+   "mercury": 0.77
+  },
+  "MUSICIAN": {
+   "ketu": 1.93,
+   "venus": 0.62,
+   "sun": 1.96,
+   "moon": 0.94,
+   "mars": 1.43,
+   "rahu": 1.01,
+   "jupiter": 0.88,
+   "saturn": 0.77,
+   "mercury": 0.93
+  },
+  "ATHLETE": {
+   "ketu": 1.58,
+   "venus": 0.69,
+   "sun": 2.66,
+   "moon": 1.68,
+   "mars": 2.02,
+   "rahu": 0.71,
+   "jupiter": 0.75,
+   "saturn": 0.7,
+   "mercury": 0.6
+  },
+  "SCIENTIST": {
+   "ketu": 2.75,
+   "venus": 0.59,
+   "sun": 2.69,
+   "moon": 1.49,
+   "mars": 1.69,
+   "rahu": 0.66,
+   "jupiter": 0.62,
+   "saturn": 0.65,
+   "mercury": 0.69
+  },
+  "BUSINESS": {
+   "ketu": 2.07,
+   "venus": 0.59,
+   "sun": 2.87,
+   "moon": 1.24,
+   "mars": 1.67,
+   "rahu": 0.54,
+   "jupiter": 0.86,
+   "saturn": 0.73,
+   "mercury": 0.89
+  },
+  "AUTHOR": {
+   "ketu": 1.64,
+   "venus": 0.62,
+   "sun": 1.78,
+   "moon": 1.64,
+   "mars": 2.0,
+   "rahu": 0.64,
+   "jupiter": 0.82,
+   "saturn": 0.56,
+   "mercury": 1.16
+  },
+  "ARTIST_DIRECTOR": {
+   "ketu": 1.46,
+   "venus": 0.55,
+   "sun": 2.13,
+   "moon": 1.19,
+   "mars": 1.46,
+   "rahu": 1.37,
+   "jupiter": 0.8,
+   "saturn": 0.76,
+   "mercury": 0.7
+  }
+ },
+ "business_pool": [
+  {
+   "name": "Steve Jobs",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Bill Gates",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Elon Musk",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jeff Bezos",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Mark Zuckerberg",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Warren Buffett",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Larry Page",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Sergey Brin",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Larry Ellison",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Mukesh Ambani",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ratan Tata",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Gautam Adani",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Dhirubhai Ambani",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Richard Branson",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Walt Disney",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Henry Ford",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Andrew Carnegie",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "John D. Rockefeller",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Oprah Winfrey",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Sam Altman",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Satya Nadella",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Sundar Pichai",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jack Ma",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Kiran Mazumdar-Shaw",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Michael Bloomberg",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Carlos Slim",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Bernard Arnault",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ingvar Kamprad",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Amancio Ortega",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Azim Premji",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "N. R. Narayana Murthy",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Kumar Mangalam Birla",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jamsetji Tata",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Howard Schultz",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Phil Knight",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Michael Dell",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Reed Hastings",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Indra Nooyi",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Anand Mahindra",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Uday Kotak",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Falguni Nayar",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Byju Raveendran",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Vijay Shekhar Sharma",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Tim Cook",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jensen Huang",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Susan Wojcicki",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Sheryl Sandberg",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Marissa Mayer",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Rupert Murdoch",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Masayoshi Son",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Charlie Munger",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Peter Thiel",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Marc Benioff",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Daniel Ek",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "George Soros",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ray Dalio",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Travis Kalanick",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Lakshmi Mittal",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Li Ka-shing",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ma Huateng",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Zhang Yiming",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Aliko Dangote",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Naguib Sawiris",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Marc Andreessen",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Whitney Wolfe Herd",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Brian Chesky",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Evan Spiegel",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jack Dorsey",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Nelson Mandela",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Mahatma Gandhi",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Winston Churchill",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Martin Luther King Jr.",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Mother Teresa",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Dalai Lama",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Desmond Tutu",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Aung San Suu Kyi",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Golda Meir",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Margaret Thatcher",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Angela Merkel",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Justin Trudeau",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Boris Johnson",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Fidel Castro",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Che Guevara",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Nikita Khrushchev",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Mikhail Gorbachev",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Napoleon Bonaparte",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Queen Elizabeth II",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "King Charles III",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Benazir Bhutto",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jacinda Ardern",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Lee Kuan Yew",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Kim Jong Un",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Recep Tayyip Erdogan",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Steve Wozniak",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Pony Ma",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ted Turner",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "J.P. Morgan",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Cornelius Vanderbilt",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Howard Hughes",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ray Kroc",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Sam Walton",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Francois Pinault",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Carl Icahn",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Reid Hoffman",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Meg Whitman",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ginni Rometty",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Anne Wojcicki",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jamie Dimon",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Lloyd Blankfein",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Peter Lynch",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Konosuke Matsushita",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Akio Morita",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Soichiro Honda",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ferdinand Porsche",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Enzo Ferrari",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Coco Chanel",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Giorgio Armani",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ralph Lauren",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Anna Wintour",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Estee Lauder",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Milton Hershey",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Colonel Sanders",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Conrad Hilton",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Kemmons Wilson",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Vladimir Putin",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Xi Jinping",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Joe Biden",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Donald Trump",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Narendra Modi",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Theresa May",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "David Cameron",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Tony Blair",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "John F. Kennedy",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Franklin D. Roosevelt",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Abraham Lincoln",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "George Washington",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Thomas Jefferson",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ronald Reagan",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Bill Clinton",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "George H. W. Bush",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jimmy Carter",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Charles de Gaulle",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Otto von Bismarck",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Vladimir Lenin",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Joseph Stalin",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Mao Zedong",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Deng Xiaoping",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ho Chi Minh",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Kim Il Sung",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jawaharlal Nehru",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Indira Gandhi",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Muhammad Ali Jinnah",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Kwame Nkrumah",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Jomo Kenyatta",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Julius Nyerere",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Robert Mugabe",
+   "natal_mahadasha_lord": "venus",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Muammar Gaddafi",
+   "natal_mahadasha_lord": "saturn",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Hosni Mubarak",
+   "natal_mahadasha_lord": "rahu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Anwar Sadat",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Yasser Arafat",
+   "natal_mahadasha_lord": "mercury",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "David Ben-Gurion",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Benjamin Netanyahu",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Simon Bolivar",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Getulio Vargas",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Juan Peron",
+   "natal_mahadasha_lord": "moon",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Eva Peron",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Lazaro Cardenas",
+   "natal_mahadasha_lord": "ketu",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Nicolas Maduro",
+   "natal_mahadasha_lord": "mars",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Hugo Chavez",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Corazon Aquino",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Sukarno",
+   "natal_mahadasha_lord": "sun",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Suharto",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  },
+  {
+   "name": "Ferdinand Marcos",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "BUSINESS"
+  }
+ ],
+ "science_pool": [
+  {
+   "name": "Albert Einstein",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Isaac Newton",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Marie Curie",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Charles Darwin",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Nikola Tesla",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Stephen Hawking",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Richard Feynman",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Alan Turing",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Niels Bohr",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Werner Heisenberg",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Erwin Schrodinger",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "James Watson",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Francis Crick",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Rosalind Franklin",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "C. V. Raman",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Homi Bhabha",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "A. P. J. Abdul Kalam",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Srinivasa Ramanujan",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jagadish Chandra Bose",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Louis Pasteur",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Michael Faraday",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Galileo Galilei",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Johannes Kepler",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Max Planck",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Enrico Fermi",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "J. Robert Oppenheimer",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Carl Sagan",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jane Goodall",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Tim Berners-Lee",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Katalin Kariko",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Demis Hassabis",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Geoffrey Hinton",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Dorothy Hodgkin",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Linus Pauling",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Barbara McClintock",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Rita Levi-Montalcini",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Subrahmanyan Chandrasekhar",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Har Gobind Khorana",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Venkatraman Ramakrishnan",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Abdus Salam",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Paul Dirac",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Ernest Rutherford",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "James Clerk Maxwell",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Alexander Fleming",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jonas Salk",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Edward Jenner",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Sigmund Freud",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Carl Jung",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Katherine Johnson",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Grace Hopper",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "John von Neumann",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Kurt Godel",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Vikram Sarabhai",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Wernher von Braun",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Yuri Gagarin",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Neil Armstrong",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Rosalind Picard",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Fei-Fei Li",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Yann LeCun",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Yoshua Bengio",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Andrew Ng",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Elizabeth Blackburn",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jennifer Doudna",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Emmanuelle Charpentier",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Frances Arnold",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Peter Higgs",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Kip Thorne",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Roger Penrose",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Brian Cox",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Michio Kaku",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Neil deGrasse Tyson",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Sally Ride",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Tu Youyou",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Ada Lovelace",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jocelyn Bell Burnell",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Chien-Shiung Wu",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Alan Guth",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Linus Torvalds",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Robert Oppenheimer",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Edwin Hubble",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "John Nash",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Terence Tao",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Maryam Mirzakhani",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Andrew Wiles",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Grigori Perelman",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Paul Erdos",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Emmy Noether",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Youyou Tu",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Shinya Yamanaka",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Tasuku Honjo",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Chandrasekhara Venkata Raman",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Abhijit Banerjee",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Esther Duflo",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Amartya Sen",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Daniel Kahneman",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Milton Friedman",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Paul Krugman",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Wangari Maathai",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Elinor Ostrom",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Malala Yousafzai",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Greta Thunberg",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Thomas Edison",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Alexander Graham Bell",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Guglielmo Marconi",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Orville Wright",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Dmitri Mendeleev",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Gregor Mendel",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Nicolaus Copernicus",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Pierre Curie",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Carl Friedrich Gauss",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Leonhard Euler",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Blaise Pascal",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Rene Descartes",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Carl Linnaeus",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Ivan Pavlov",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "E.O. Wilson",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Richard Dawkins",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Lise Meitner",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Robert Boyle",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Antoine Lavoisier",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Michael Collins (astronaut)",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Buzz Aldrin",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Valentina Tereshkova",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Robert Goddard",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Konstantin Tsiolkovsky",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Anthony Fauci",
+   "natal_mahadasha_lord": "rahu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Benoit Mandelbrot",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Claude Shannon",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Norbert Wiener",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Freeman Dyson",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Murray Gell-Mann",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Steven Weinberg",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Brian Greene",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Vera Rubin",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Caroline Herschel",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "William Herschel",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Tycho Brahe",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Georges Lemaitre",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "APJ Abdul Kalam",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "C.V. Raman",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Yoshinori Ohsumi",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Ahmed Zewail",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "David Attenborough",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Barbara Liskov",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Donald Knuth",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Dennis Ritchie",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Ken Thompson",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Rachel Carson",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Norman Borlaug",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Louis Leakey",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Mary Leakey",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Donald Johanson",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Stephen Jay Gould",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Temple Grandin",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Craig Venter",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Robert Langer",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Paul Farmer",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Christiaan Barnard",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Carol Greider",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Peter Mansfield",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Paul Lauterbur",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Barry Marshall",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Robin Warren",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Harold Varmus",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Elizabeth Loftus",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Amos Tversky",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Steven Pinker",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Noam Chomsky",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "B.F. Skinner",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jean Piaget",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Konrad Lorenz",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Dian Fossey",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Birute Galdikas",
+   "natal_mahadasha_lord": "venus",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Sylvia Earle",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Jacques Cousteau",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Robert Ballard",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "James Hansen",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Svante Arrhenius",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Fritz Haber",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Glenn Seaborg",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Rosalyn Yalow",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Gertrude Elion",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Kailash Satyarthi",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Andrea Ghez",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Donna Strickland",
+   "natal_mahadasha_lord": "moon",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Gerard Mourou",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "John Mather",
+   "natal_mahadasha_lord": "mercury",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "George Smoot",
+   "natal_mahadasha_lord": "mars",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Adam Riess",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Saul Perlmutter",
+   "natal_mahadasha_lord": "sun",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Brian Schmidt",
+   "natal_mahadasha_lord": "ketu",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Didier Queloz",
+   "natal_mahadasha_lord": "saturn",
+   "field": "SCIENTIST"
+  },
+  {
+   "name": "Michel Mayor",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "SCIENTIST"
+  }
+ ],
+ "entertainment_pool": [
+  {
+   "name": "Charlie Chaplin",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Marilyn Monroe",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Elizabeth Taylor",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Marlon Brando",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Audrey Hepburn",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Paul Newman",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Robert De Niro",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Al Pacino",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Meryl Streep",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jack Nicholson",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Tom Hanks",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Denzel Washington",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Julia Roberts",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Leonardo DiCaprio",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Brad Pitt",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Angelina Jolie",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Johnny Depp",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Will Smith",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Tom Cruise",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Nicole Kidman",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Cate Blanchett",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Hugh Jackman",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Robert Downey Jr.",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Scarlett Johansson",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Morgan Freeman",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Samuel L. Jackson",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Keanu Reeves",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Sandra Bullock",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "George Clooney",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Amitabh Bachchan",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Shah Rukh Khan",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Aamir Khan",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Salman Khan",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Priyanka Chopra",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Deepika Padukone",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Rajinikanth",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Kamal Haasan",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ranbir Kapoor",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Alia Bhatt",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jackie Chan",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Bruce Lee",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Chris Hemsworth",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Emma Watson",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Natalie Portman",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ryan Gosling",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Margot Robbie",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Zendaya",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Timothee Chalamet",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Michael B. Jordan",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jessie Buckley",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Sean Connery",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Clint Eastwood",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Kate Winslet",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Anne Hathaway",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Emma Stone",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jennifer Lawrence",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Chris Evans",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Chris Pratt",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Dwayne Johnson",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Vin Diesel",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Idris Elba",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Daniel Craig",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Anthony Hopkins",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Gary Oldman",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Christian Bale",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Hrithik Roshan",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Akshay Kumar",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ajay Devgn",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Kareena Kapoor",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Katrina Kaif",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Vijay (Thalapathy)",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Mammootty",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Mohanlal",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Chow Yun-fat",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jet Li",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Song Kang-ho",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Toshiro Mifune",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Adele Exarchopoulos",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Marion Cotillard",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Penelope Cruz",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Javier Bardem",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Sidney Poitier",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Charlize Theron",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Viola Davis",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Christoph Waltz",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Cillian Murphy",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Michelle Yeoh",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Katharine Hepburn",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Cary Grant",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Humphrey Bogart",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ingrid Bergman",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "James Dean",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Grace Kelly",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Sophia Loren",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Michael Caine",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Judi Dench",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Helen Mirren",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Daniel Day-Lewis",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Emma Thompson",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Colin Firth",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Benedict Cumberbatch",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Daniel Radcliffe",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Matt Damon",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ben Affleck",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Russell Crowe",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Hugh Grant",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ewan McGregor",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Antonio Banderas",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Salma Hayek",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Diego Luna",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Gael Garcia Bernal",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ryan Reynolds",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Florence Pugh",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Donnie Yen",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "James Stewart",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Clark Gable",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Vivien Leigh",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Gregory Peck",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Charlton Heston",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jane Fonda",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Dustin Hoffman",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ian McKellen",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Tom Hardy",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Rupert Grint",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Keira Knightley",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Reese Witherspoon",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Halle Berry",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Sandra Oh",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Mark Wahlberg",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jamie Foxx",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Juliette Binoche",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Gerard Depardieu",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Kajol",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Bruce Willis",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Sylvester Stallone",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Arnold Schwarzenegger",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Harrison Ford",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Robert Pattinson",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Liam Neeson",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Eddie Murphy",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jim Carrey",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Robin Williams",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Steve Martin",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Adam Sandler",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Steve Carell",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Tina Fey",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Amy Poehler",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Melissa McCarthy",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Whoopi Goldberg",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Betty White",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Marlene Dietrich",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Greta Garbo",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Audrey Tautou",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Isabelle Huppert",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Catherine Deneuve",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Alain Delon",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jean-Paul Belmondo",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Javier Camara",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Rowan Atkinson",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Peter Sellers",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Alec Guinness",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Christopher Lee",
+   "natal_mahadasha_lord": "moon",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Peter Cushing",
+   "natal_mahadasha_lord": "mars",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Maggie Smith",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Vanessa Redgrave",
+   "natal_mahadasha_lord": "sun",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Kenneth Branagh",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Ralph Fiennes",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Jude Law",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Orlando Bloom",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Michael Fassbender",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Saoirse Ronan",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Anya Taylor-Joy",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Pedro Pascal",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Oscar Isaac",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Adam Driver",
+   "natal_mahadasha_lord": "venus",
+   "field": "ACTOR"
+  },
+  {
+   "name": "Wolfgang Amadeus Mozart",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ludwig van Beethoven",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Johann Sebastian Bach",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Elvis Presley",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "The Beatles - John Lennon",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Paul McCartney",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Michael Jackson",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Madonna",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Whitney Houston",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Prince",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Freddie Mercury",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "David Bowie",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bob Dylan",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Elton John",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Stevie Wonder",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bob Marley",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Beyonce",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Taylor Swift",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Rihanna",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Lady Gaga",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ed Sheeran",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Adele",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Kanye West",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jay-Z",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Eminem",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Drake",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ariana Grande",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Justin Bieber",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Billie Eilish",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Lata Mangeshkar",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "A. R. Rahman",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Kishore Kumar",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ravi Shankar",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Frank Sinatra",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Louis Armstrong",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Miles Davis",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jimi Hendrix",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Mick Jagger",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bruce Springsteen",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Celine Dion",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Shakira",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "BTS - Kim Namjoon (RM)",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Harry Styles",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Selena Gomez",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Katy Perry",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bruno Mars",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Stevie Nicks",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Aretha Franklin",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Chuck Berry",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ray Charles",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Diana Ross",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Tina Turner",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Janis Joplin",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jim Morrison",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Kurt Cobain",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Amy Winehouse",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Sia",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Coldplay - Chris Martin",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Sting",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Phil Collins",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Eric Clapton",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Kishore Da",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Arijit Singh",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Shreya Ghoshal",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Zakir Hussain",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bismillah Khan",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "BTS - Jungkook",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Blackpink - Lisa",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Dua Lipa",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "The Weeknd",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Post Malone",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Travis Scott",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Snoop Dogg",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Dr. Dre",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Tupac Shakur",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "The Notorious B.I.G.",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Kendrick Lamar",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bad Bunny",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ozzy Osbourne",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Nina Simone",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jerry Garcia",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Missy Elliott",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "John Lennon",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Mariah Carey",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Notorious B.I.G.",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ella Fitzgerald",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Billie Holiday",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Johnny Cash",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Dolly Parton",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Andrea Bocelli",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Yo-Yo Ma",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Karol G",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "RM (BTS)",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jennie (Blackpink)",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Frederic Chopin",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Franz Liszt",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Pyotr Ilyich Tchaikovsky",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Johannes Brahms",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Richard Wagner",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Giuseppe Verdi",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Antonio Vivaldi",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Igor Stravinsky",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Sergei Rachmaninoff",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "The Beatles (John Lennon)",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "George Harrison",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ringo Starr",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Keith Richards",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "John Lennon Yoko Ono",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "James Brown",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Marvin Gaye",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "John Coltrane",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Duke Ellington",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Willie Nelson",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jimmy Page",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Robert Plant",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Roger Waters",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "David Gilmour",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Axl Rose",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Eddie Van Halen",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ricky Martin",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Selena Quintanilla",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Julio Iglesias",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Luciano Pavarotti",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Maria Callas",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "A.R. Rahman",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "BTS (RM)",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Psy",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "BLACKPINK (Jennie)",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Hikaru Utada",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Fela Kuti",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Miriam Makeba",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Youssou Ndour",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Celia Cruz",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Gloria Estefan",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bee Gees (Barry Gibb)",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "ABBA (Benny Andersson)",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Peter Gabriel",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Annie Lennox",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Kate Bush",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "George Michael",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Robbie Williams",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Coldplay (Chris Martin)",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "U2 (Bono)",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Enya",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Cesaria Evora",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Herbie Hancock",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Wynton Marsalis",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Chick Corea",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Charles Mingus",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Thelonious Monk",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Dizzy Gillespie",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Charlie Parker",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "B.B. King",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Muddy Waters",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Robert Johnson",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Little Richard",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Fats Domino",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Buddy Holly",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Carlos Santana",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Antonio Carlos Jobim",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Joao Gilberto",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Astor Piazzolla",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Carlos Gardel",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Umm Kulthum",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Fairuz",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Nusrat Fateh Ali Khan",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "King Sunny Ade",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Manu Chao",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Sezen Aksu",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Charles Aznavour",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Edith Piaf",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Jacques Brel",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Serge Gainsbourg",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Nick Cave",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "PJ Harvey",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Bjork",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "ABBA Agnetha",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Robyn",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Avicii",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Daft Punk (Thomas Bangalter)",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Calvin Harris",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Skrillex",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Tiesto",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Deadmau5",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Ice Cube",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Nas",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Lauryn Hill",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Erykah Badu",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Alicia Keys",
+   "natal_mahadasha_lord": "moon",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Usher",
+   "natal_mahadasha_lord": "saturn",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "John Legend",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Frank Ocean",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "SZA",
+   "natal_mahadasha_lord": "rahu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Doja Cat",
+   "natal_mahadasha_lord": "sun",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Olivia Rodrigo",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Sam Smith",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Lizzo",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Cardi B",
+   "natal_mahadasha_lord": "mercury",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Megan Thee Stallion",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "J. Cole",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Chance the Rapper",
+   "natal_mahadasha_lord": "mars",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Pharrell Williams",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "will.i.am",
+   "natal_mahadasha_lord": "ketu",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Timbaland",
+   "natal_mahadasha_lord": "venus",
+   "field": "MUSICIAN"
+  },
+  {
+   "name": "Pablo Picasso",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Leonardo da Vinci",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Vincent van Gogh",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Michelangelo",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Salvador Dali",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Andy Warhol",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Frida Kahlo",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Alfred Hitchcock",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Stanley Kubrick",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Steven Spielberg",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Martin Scorsese",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Christopher Nolan",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Quentin Tarantino",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "James Cameron",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Satyajit Ray",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Yash Chopra",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Akira Kurosawa",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Walt Whitman",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Rembrandt",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Claude Monet",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Georgia O'Keeffe",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Banksy",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Wes Anderson",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Greta Gerwig",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Hayao Miyazaki",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Federico Fellini",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Ingmar Bergman",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Anish Kapoor",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "M. F. Husain",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Damien Hirst",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Jeff Koons",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Bong Joon-ho",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Guillermo del Toro",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Alfonso Cuaron",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Denis Villeneuve",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Sofia Coppola",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Ang Lee",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Peter Jackson",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Ridley Scott",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "David Lynch",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Wong Kar-wai",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Frank Lloyd Wright",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Yayoi Kusama",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Jackson Pollock",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Ai Weiwei",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Frank Gehry",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Zaha Hadid",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Robert Frost",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Maya Lin",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Diego Rivera",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Wassily Kandinsky",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Henri Matisse",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Rene Magritte",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Georges Seurat",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Alejandro Gonzalez Inarritu",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Pedro Almodovar",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Raphael",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Johannes Vermeer",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Pierre-Auguste Renoir",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Edgar Degas",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Paul Cezanne",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Paul Gauguin",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Joan Miro",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Gustav Klimt",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Edvard Munch",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Marc Chagall",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Francis Ford Coppola",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "George Lucas",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Tim Burton",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "David Fincher",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Coen Brothers (Joel Coen)",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Woody Allen",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Yasujiro Ozu",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Jean-Luc Godard",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Francois Truffaut",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Orson Welles",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Billy Wilder",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "David Lean",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Spike Lee",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Kathryn Bigelow",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Chuck Jones",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Ansel Adams",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Annie Leibovitz",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Robert Capa",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Diane Arbus",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Antoni Gaudi",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Le Corbusier",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "I.M. Pei",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Henri de Toulouse-Lautrec",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Gustave Courbet",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Eugene Delacroix",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Francisco Goya",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "El Greco",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Diego Velazquez",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Titian",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Sandro Botticelli",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Caravaggio",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Peter Paul Rubens",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Albrecht Durer",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Hieronymus Bosch",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Henri Rousseau",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Amedeo Modigliani",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Piet Mondrian",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Paul Klee",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Max Ernst",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Roy Lichtenstein",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Keith Haring",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Jean-Michel Basquiat",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Auguste Rodin",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Alberto Giacometti",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Henry Moore",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Louise Bourgeois",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Constantin Brancusi",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Cindy Sherman",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Henri Cartier-Bresson",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Man Ray",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Dorothea Lange",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Richard Avedon",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Sergei Eisenstein",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Andrei Tarkovsky",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Luis Bunuel",
+   "natal_mahadasha_lord": "saturn",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Michelangelo Antonioni",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Pier Paolo Pasolini",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Roman Polanski",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Milos Forman",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Wim Wenders",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Werner Herzog",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Jordan Peele",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Barry Jenkins",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Chloe Zhao",
+   "natal_mahadasha_lord": "mars",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Park Chan-wook",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Zhang Yimou",
+   "natal_mahadasha_lord": "sun",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Isao Takahata",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Renzo Piano",
+   "natal_mahadasha_lord": "venus",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Norman Foster",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Tadao Ando",
+   "natal_mahadasha_lord": "moon",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Rem Koolhaas",
+   "natal_mahadasha_lord": "mercury",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Antoni Tapies",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Georg Baselitz",
+   "natal_mahadasha_lord": "rahu",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Gerhard Richter",
+   "natal_mahadasha_lord": "jupiter",
+   "field": "ARTIST_DIRECTOR"
+  },
+  {
+   "name": "Anselm Kiefer",
+   "natal_mahadasha_lord": "ketu",
+   "field": "ARTIST_DIRECTOR"
+  }
+ ]
+}

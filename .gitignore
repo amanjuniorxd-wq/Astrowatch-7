@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.db
+.DS_Store
+**/.DS_Store
+!astrowatch/historical_events.db
+!astrowatch/historical_events_v2.db
+!astrowatch/backtest_results.db
+.pytest_cache/
+*.egg-info/
+
+# Astrowatch Online: never commit real secrets
+.env
+.env.local
+.DS_Store

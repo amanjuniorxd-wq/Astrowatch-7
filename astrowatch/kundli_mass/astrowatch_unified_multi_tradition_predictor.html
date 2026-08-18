@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astrowatch -- Unified Multi-Tradition Astrological Predictor</title>
+<style>
+  * { box-sizing: border-box; }
+  body { background:#050505; color:#e8e8e8; font-family: Georgia, 'Times New Roman', serif; margin:0; padding:0; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 18px 80px; }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  .subtitle { color:#999; font-size:13px; margin-bottom:18px; }
+  .disclaimer { background:#160c0c; border:1px solid #4a2222; border-radius:8px; padding:14px 16px; font-size:12.5px; color:#d8b8b8; line-height:1.6; margin-bottom:22px; }
+  form { background: #0a0a0a; border: 1px solid #2a2a2a; border-radius: 10px; padding: 18px 20px; margin-bottom: 24px;}
+  .row { display:flex; flex-wrap:wrap; gap:14px; margin-bottom: 10px; }
+  .field { display:flex; flex-direction:column; gap:4px; }
+  label { font-size: 12px; color: #9a9a9a; font-weight: 600; }
+  input, select { padding: 7px 9px; border: 1px solid #3a3a3a; border-radius: 6px; font-size: 14px; background: #000000; color: #e8e8e8; font-family: inherit;}
+  .time-note { font-size:11px; color:#888; max-width:220px; }
+  button[type=submit] { background:#ffffff; color:#000; border:none; border-radius:6px; padding:10px 22px; font-size:15px; font-weight:bold; cursor:pointer; }
+  button[type=button] { background:#000; color:#fff; border:1px solid #fff; border-radius:6px; padding:8px 12px; font-size:13px; cursor:pointer; }
+  #manual-fields { display:none; }
+  #report { display:none; }
+  .section { margin-top: 30px; }
+  .section h2 { font-size: 19px; border-bottom: 1px solid #333; padding-bottom:6px; }
+  .prose p { line-height:1.7; font-size:15px; color:#dcdcdc; }
+  .short-pred { background:#0d1608; border:1px solid #2d4a1e; border-radius:8px; padding:16px; font-size:16px; color:#c8e8b8; line-height:1.6; }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; margin: 16px 0; }
+  .tab-btn { background:#111; color:#ccc; border:1px solid #333; border-radius:6px; padding:7px 12px; font-size:12.5px; cursor:pointer; font-family: inherit;}
+  .tab-btn.computed { border-color:#2d4a1e; }
+  .tab-btn.reference { border-color:#4a2222; }
+  .tab-btn.active { background:#fff; color:#000; font-weight:bold; }
+  .panel { display:none; background:#0a0a0a; border:1px solid #2a2a2a; border-radius:10px; padding:18px; }
+  .panel.active { display:block; }
+  .panel-chart { text-align:center; margin-bottom: 16px; }
+  .panel-chart svg { max-width: 100%; height: auto; background:#fdfcf7; border-radius:6px; }
+  .panel-report table { width:100%; border-collapse:collapse; font-size:12.5px; margin: 10px 0; }
+  .panel-report th, .panel-report td { border:1px solid #2a2a2a; padding:5px 7px; text-align:left; }
+  .panel-report th { background:#151515; color:#aaa; }
+  .panel-report p { line-height:1.6; font-size:13.5px; color:#d8d8d8; }
+  .gallery-nav { display:flex; justify-content:space-between; margin-bottom:8px; }
+  .char-count { font-size:11px; color:#666; text-align:right; margin-top:6px; }
+  .stat-badge { display:inline-block; font-size:11px; background:#151515; border:1px solid #333; border-radius:10px; padding:2px 8px; margin-right:6px; color:#aaa;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Astrowatch -- Unified Multi-Tradition Astrological Predictor</h1>
+<div class="subtitle">Enter any birth (or founding) details -- for a person, company, or country -- and get one combined prediction plus a separate detailed chart-and-report for each of 10 astrological traditions.</div>
+
+<div class="disclaimer">
+<strong>Read before use.</strong> This is a self-contained page with no backend/network calls, so it uses standard published low-precision astronomical formulas (USNO Sun formula, JPL/Standish 1992 planetary elements, Schlyter Moon formula with a 12-term perturbation correction, IAU mean lunar node for Rahu/Ketu, and this project's own linear two-anchor Lahiri ayanamsha model). Cross-checked this session against this project's Python engine: Ascendant and Sun longitude matched to within rounding, Moon longitude within about 0.03&deg; -- consistent with this app's documented ~0.02-0.05&deg; tolerance. Valid roughly for dates 1800-2050.
+<br><br>
+<strong>Time of birth is optional.</strong> Per this project's standing rule, any entity with a known birth/founding <em>date and place</em> but no recorded time is assumed to be born at local midnight (00:00) -- this lets nations, companies, and historical figures with undocumented birth times still be charted. When time is assumed rather than given, every report below says so explicitly, and Ascendant-dependent findings (house placements, the 10th-house career reading, all wheel charts) carry real extra uncertainty as a result -- Moon-based and year-based findings (Nakshatra, Mahadasha sequence, Chinese year) are unaffected by an unknown time.
+<br><br>
+<strong>What is actually computed vs. reference-only:</strong> of the 10 traditions shown, 4 have real computed charts (Jyotisha, Hellenistic, Western, Chinese). The other 6 (Babylonian, Persian/Islamic, Tibetan, Egyptian, Japanese, Mesoamerican) are shown as honest historical reference cards only -- this project has no calculation engine for them, and each panel says so.
+<br><br>
+This is a traditional symbolic framework for reflection. Astrowatch's own blind backtest against 519 real historical events found no statistically real predictive edge for the Mahadasha framework. Not a factual claim about the future, not financial or medical advice.
+</div>
+
+<form id="birth-form">
+  <div class="row">
+    <div class="field"><label>Entity name</label><input type="text" id="in-name" placeholder="e.g. Jane Doe / Acme Corp / A country" required></div>
+    <div class="field"><label>Entity type</label>
+      <select id="in-type">
+        <option value="person">Person</option>
+        <option value="organization">Organization / company</option>
+        <option value="nation">Nation / political entity</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="field"><label>Date of birth / founding</label><input type="date" id="in-date" required></div>
+    <div class="field">
+      <label>Time (optional)</label>
+      <input type="time" id="in-time">
+      <span class="time-note">Leave blank to assume local midnight (00:00), per this project's mundane-astrology rule.</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="field" style="flex:1; min-width:220px;">
+      <label>Place of birth / founding</label>
+      <select id="in-city">
+        <option value="">-- select a city --</option>
+      </select>
+    </div>
+    <div class="field"><label>&nbsp;</label><button type="button" id="manual-toggle">Enter coordinates manually</button></div>
+  </div>
+  <div class="row" id="manual-fields">
+    <div class="field"><label>Latitude (+N / -S)</label><input type="number" step="0.0001" id="in-lat" placeholder="e.g. 25.5941"></div>
+    <div class="field"><label>Longitude (+E / -W)</label><input type="number" step="0.0001" id="in-lon" placeholder="e.g. 85.1376"></div>
+    <div class="field"><label>UTC offset (hours)</label><input type="number" step="0.25" id="in-utc" placeholder="e.g. 5.5"></div>
+  </div>
+  <button type="submit">Generate combined prediction + all 10 tradition reports</button>
+</form>
+
+<div id="report">
+
+  <div class="section">
+    <h2>Combined Prediction</h2>
+    <div id="short-pred" class="short-pred"></div>
+  </div>
+
+  <div class="section">
+    <h2>General Life Reading</h2>
+    <div id="general-narrative" class="prose"></div>
+  </div>
+
+  <div class="section">
+    <h2>Decade-by-Decade Breakdown</h2>
+    <div id="decade-narrative" class="prose"></div>
+    <div class="char-count" id="char-count"></div>
+  </div>
+
+  <div class="section">
+    <h2>All 10 Astrological Fields -- Chart + Detailed Report, One By One</h2>
+    <div class="tabs" id="tabs"></div>
+    <div id="panels"></div>
+  </div>
+
+</div>
+
+</div>
+
+<script>
+/* ===================== Core Ephemeris (adapted from astrowatch_kundli_life_report.html) ===================== */
+/* ===== Julian Day ===== */
+function julianDay(y, m, d, hourUT) {
+  if (m <= 2) { y -= 1; m += 12; }
+  var A = Math.floor(y / 100);
+  var B = 2 - A + Math.floor(A / 4);
+  return Math.floor(365.25 * (y + 4716)) + Math.floor(30.6001 * (m + 1)) + d + hourUT/24 + B - 1524.5;
+}
+function rad(x) { return x * Math.PI / 180; }
+function deg(x) { return x * 180 / Math.PI; }
+function norm360(x) { var r = x % 360; if (r < 0) r += 360; return r; }
+function norm180(x) { var r = norm360(x); if (r > 180) r -= 360; return r; }
+
+function sunEclipticLongitude(jd) {
+  var D = jd - 2451545.0;
+  var g = rad(357.529 + 0.98560028 * D);
+  var q = 280.459 + 0.98564736 * D;
+  var L = q + 1.915 * Math.sin(g) + 0.020 * Math.sin(2*g);
+  return norm360(L);
+}
+function obliquity(jd) {
+  var D = jd - 2451545.0;
+  return 23.439 - 0.00000036 * D;
+}
+
+function moonEclipticLongitude(jd) {
+  var d = jd - 2451543.5;
+  var N = norm360(125.1228 - 0.0529538083 * d);
+  var i = 5.1454;
+  var w = norm360(318.0634 + 0.1643573223 * d);
+  var a = 60.2666;
+  var e = 0.054900;
+  var M = norm360(115.3654 + 13.0649929509 * d);
+  var E = M + (e * 180 / Math.PI) * Math.sin(rad(M)) * (1 + e * Math.cos(rad(M)));
+  for (var it = 0; it < 8; it++) {
+    var dE = (E - (e * 180 / Math.PI) * Math.sin(rad(E)) - M) / (1 - e * Math.cos(rad(E)));
+    E -= dE;
+    if (Math.abs(dE) < 1e-8) break;
+  }
+  var xv = a * (Math.cos(rad(E)) - e);
+  var yv = a * (Math.sqrt(1 - e * e) * Math.sin(rad(E)));
+  var r = Math.sqrt(xv * xv + yv * yv);
+  var v = deg(Math.atan2(yv, xv));
+  var vw = rad(v + w);
+  var xh = r * (Math.cos(rad(N)) * Math.cos(vw) - Math.sin(rad(N)) * Math.sin(vw) * Math.cos(rad(i)));
+  var yh = r * (Math.sin(rad(N)) * Math.cos(vw) + Math.cos(rad(N)) * Math.sin(vw) * Math.cos(rad(i)));
+  var lonecl = norm360(deg(Math.atan2(yh, xh)));
+  var wSun = norm360(282.9404 + 4.70935e-5 * d);
+  var Msun = norm360(356.0470 + 0.9856002585 * d);
+  var Ls = norm360(Msun + wSun);
+  var Lm = norm360(M + w + N);
+  var D2 = norm360(Lm - Ls);
+  var F = norm360(Lm - N);
+  var pert = 0;
+  pert += -1.274 * Math.sin(rad(M - 2 * D2));
+  pert += 0.658 * Math.sin(rad(2 * D2));
+  pert += -0.186 * Math.sin(rad(Msun));
+  pert += -0.059 * Math.sin(rad(2 * M - 2 * D2));
+  pert += -0.057 * Math.sin(rad(M - 2 * D2 + Msun));
+  pert += 0.053 * Math.sin(rad(M + 2 * D2));
+  pert += 0.046 * Math.sin(rad(2 * D2 - Msun));
+  pert += 0.041 * Math.sin(rad(M - Msun));
+  pert += -0.035 * Math.sin(rad(D2));
+  pert += -0.031 * Math.sin(rad(M + Msun));
+  pert += -0.015 * Math.sin(rad(2 * F - 2 * D2));
+  pert += 0.011 * Math.sin(rad(M - 4 * D2));
+  return norm360(lonecl + pert);
+}
+
+function rahuLongitude(jd) {
+  var T = (jd - 2451545.0) / 36525;
+  var omega = 125.04452 - 1934.136261 * T;
+  return norm360(omega);
+}
+
+var PLANET_ELEMENTS = {
+  earth:   [1.00000261, 0.00000562, 0.01671123, -0.00004392, -0.00001531, -0.01294668, 100.46457166, 35999.37244981, 102.93768193, 0.32327364, 0.0, 0.0],
+  mercury: [0.38709927, 0.00000037, 0.20563593, 0.00001906, 7.00497902, -0.00594749, 252.25032350, 149472.67411175, 77.45779628, 0.16047689, 48.33076593, -0.12534081],
+  venus:   [0.72333566, 0.00000390, 0.00677672, -0.00004107, 3.39467605, -0.00078890, 181.97909950, 58517.81538729, 131.60246718, 0.00268329, 76.67984255, -0.27769418],
+  mars:    [1.52371034, 0.00001847, 0.09339410, 0.00007882, 1.84969142, -0.00813131, -4.55343205, 19140.30268499, -23.94362959, 0.44441088, 49.55953891, -0.29257343],
+  jupiter: [5.20288700, -0.00011607, 0.04838624, -0.00013253, 1.30439695, -0.00183714, 34.39644051, 3034.74612775, 14.72847983, 0.21252668, 100.47390909, 0.20469106],
+  saturn:  [9.53667594, -0.00125060, 0.05386179, -0.00050991, 2.48599187, 0.00193609, 49.95424423, 1222.49362201, 92.59887831, -0.41897216, 113.66242448, -0.28867794]
+};
+function solveKepler(Mdeg, e) {
+  var eStar = 57.29578 * e;
+  var M = Mdeg;
+  var E = M + eStar * Math.sin(rad(M));
+  for (var i = 0; i < 20; i++) {
+    var dM = M - (E - eStar * Math.sin(rad(E)));
+    var dE = dM / (1 - e * Math.cos(rad(E)));
+    E += dE;
+    if (Math.abs(dE) < 1e-6) break;
+  }
+  return E;
+}
+function heliocentricXYZ(bodyKey, T) {
+  var el = PLANET_ELEMENTS[bodyKey];
+  var a = el[0] + el[1]*T, e = el[2] + el[3]*T, I = el[4] + el[5]*T, L = el[6] + el[7]*T;
+  var longPeri = el[8] + el[9]*T, longNode = el[10] + el[11]*T;
+  var omega = longPeri - longNode;
+  var M = norm180(L - longPeri);
+  var E = solveKepler(M, e);
+  var xp = a * (Math.cos(rad(E)) - e);
+  var yp = a * Math.sqrt(1 - e*e) * Math.sin(rad(E));
+  var cosO = Math.cos(rad(omega)), sinO = Math.sin(rad(omega));
+  var cosN = Math.cos(rad(longNode)), sinN = Math.sin(rad(longNode));
+  var cosI = Math.cos(rad(I)), sinI = Math.sin(rad(I));
+  var xecl = (cosO*cosN - sinO*sinN*cosI) * xp + (-sinO*cosN - cosO*sinN*cosI) * yp;
+  var yecl = (cosO*sinN + sinO*cosN*cosI) * xp + (-sinO*sinN + cosO*cosN*cosI) * yp;
+  return [xecl, yecl];
+}
+function planetGeocentricLongitude(bodyKey, jd) {
+  var T = (jd - 2451545.0) / 36525;
+  var e = heliocentricXYZ("earth", T);
+  var p = heliocentricXYZ(bodyKey, T);
+  var xg = p[0] - e[0], yg = p[1] - e[1];
+  return norm360(deg(Math.atan2(yg, xg)));
+}
+
+var ANCHOR_1956_JD = 2435553.5, ANCHOR_1956_AYANAMSA = 23.25;
+var ANCHOR_J2000_JD = 2451545.0, ANCHOR_J2000_AYANAMSA = 23.853222;
+var DEG_PER_DAY = (ANCHOR_J2000_AYANAMSA - ANCHOR_1956_AYANAMSA) / (ANCHOR_J2000_JD - ANCHOR_1956_JD);
+function ayanamsha(jd) { return ANCHOR_1956_AYANAMSA + DEG_PER_DAY * (jd - ANCHOR_1956_JD); }
+
+var RASHI_NAMES = ["Mesha","Vrishabha","Mithuna","Karka","Simha","Kanya","Tula","Vrischika","Dhanu","Makara","Kumbha","Meena"];
+var WESTERN_SIGN_NAMES = ["Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Pisces"];
+var NAKSHATRA_NAMES = ["Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardra","Punarvasu","Pushya","Ashlesha","Magha","Purva Phalguni","Uttara Phalguni","Hasta","Chitra","Swati","Vishakha","Anuradha","Jyeshtha","Mula","Purva Ashadha","Uttara Ashadha","Shravana","Dhanishta","Shatabhisha","Purva Bhadrapada","Uttara Bhadrapada","Revati"];
+function rashiFor(lon) { var idx = Math.floor(lon / 30) % 12; return { index: idx, name: RASHI_NAMES[idx] }; }
+function westernSignFor(lon) { var idx = Math.floor(lon / 30) % 12; return { index: idx, name: WESTERN_SIGN_NAMES[idx] }; }
+function nakshatraFor(lon) { var w = 360/27; var idx = Math.floor(lon / w) % 27; return { index: idx, name: NAKSHATRA_NAMES[idx] }; }
+
+function computeChart(jd, latDeg, lonDeg) {
+  var aya = ayanamsha(jd);
+  var tropical = {
+    sun: sunEclipticLongitude(jd), moon: moonEclipticLongitude(jd),
+    mercury: planetGeocentricLongitude("mercury", jd), venus: planetGeocentricLongitude("venus", jd),
+    mars: planetGeocentricLongitude("mars", jd), jupiter: planetGeocentricLongitude("jupiter", jd),
+    saturn: planetGeocentricLongitude("saturn", jd), rahu: rahuLongitude(jd)
+  };
+  tropical.ketu = norm360(tropical.rahu + 180);
+  var sidereal = {};
+  for (var k in tropical) sidereal[k] = norm360(tropical[k] - aya);
+
+  var T = (jd - 2451545.0) / 36525;
+  var gst = norm360(280.46061837 + 360.98564736629 * (jd - 2451545.0) + 0.000387933*T*T);
+  var lst = norm360(gst + lonDeg);
+  var eps = rad(obliquity(jd));
+  var phi = rad(latDeg);
+  var lstRad = rad(lst);
+  var ascTropical = norm360(deg(Math.atan2(Math.cos(lstRad), -(Math.sin(lstRad)*Math.cos(eps) + Math.tan(phi)*Math.sin(eps)))));
+  var ascSidereal = norm360(ascTropical - aya);
+  return { ayanamsha: aya, sidereal: sidereal, tropical: tropical, ascendantSidereal: ascSidereal, ascendantTropical: ascTropical };
+}
+function houseNumber(grahaRashiIdx, ascRashiIdx) { return ((grahaRashiIdx - ascRashiIdx + 12) % 12) + 1; }
+
+var DASHA_SEQUENCE = [["ketu",7],["venus",20],["sun",6],["moon",10],["mars",7],["rahu",18],["jupiter",16],["saturn",19],["mercury",17]];
+var NAKSHATRA_STARTING_LORD = [];
+for (var _i = 0; _i < 27; _i++) NAKSHATRA_STARTING_LORD.push(DASHA_SEQUENCE[_i % 9][0]);
+var SIDEREAL_YEAR_DAYS = 365.25636;
+var NAKSHATRA_WIDTH = 360/27;
+function lordIndex(lord) { for (var i=0;i<9;i++) if (DASHA_SEQUENCE[i][0]===lord) return i; return -1; }
+function birthBalanceMahadasha(moonSiderealLon) {
+  var nakIdx = Math.floor(moonSiderealLon / NAKSHATRA_WIDTH) % 27;
+  var degInNak = moonSiderealLon - nakIdx * NAKSHATRA_WIDTH;
+  var startingLord = NAKSHATRA_STARTING_LORD[nakIdx];
+  var startingYears = DASHA_SEQUENCE[lordIndex(startingLord)][1];
+  var fractionElapsed = degInNak / NAKSHATRA_WIDTH;
+  var elapsedYears = fractionElapsed * startingYears;
+  return { lord: startingLord, elapsedYears: elapsedYears, balanceYears: startingYears - elapsedYears };
+}
+function fullLifetimeMahadashas(birthJd, moonSiderealLon, horizonYears) {
+  var bb = birthBalanceMahadasha(moonSiderealLon);
+  var idx = lordIndex(bb.lord);
+  var startJd = birthJd - bb.elapsedYears * SIDEREAL_YEAR_DAYS;
+  var endJd = startJd + DASHA_SEQUENCE[idx][1] * SIDEREAL_YEAR_DAYS;
+  var horizonJd = birthJd + horizonYears * SIDEREAL_YEAR_DAYS;
+  var out = [];
+  while (startJd < horizonJd) {
+    out.push({ lord: DASHA_SEQUENCE[idx][0], startJd: startJd, endJd: endJd });
+    idx = (idx + 1) % 9;
+    startJd = endJd;
+    endJd = startJd + DASHA_SEQUENCE[idx][1] * SIDEREAL_YEAR_DAYS;
+  }
+  return out;
+}
+function antardashasFor(mahaLord, mahaStartJd) {
+  var idx = lordIndex(mahaLord);
+  var mahaLordYears = DASHA_SEQUENCE[idx][1];
+  var cursor = mahaStartJd;
+  var out = [];
+  for (var offset = 0; offset < 9; offset++) {
+    var subIdx = (idx + offset) % 9;
+    var subLord = DASHA_SEQUENCE[subIdx][0], subYears = DASHA_SEQUENCE[subIdx][1];
+    var durationDays = (subYears * mahaLordYears / 120.0) * SIDEREAL_YEAR_DAYS;
+    var subEnd = cursor + durationDays;
+    out.push({ lord: subLord, startJd: cursor, endJd: subEnd });
+    cursor = subEnd;
+  }
+  return out;
+}
+function jdToIsoDate(jdUt) {
+  var jd = jdUt + 0.5;
+  var z = Math.floor(jd);
+  var f = jd - z;
+  var a;
+  if (z < 2299161) a = z;
+  else { var alpha = Math.floor((z - 1867216.25) / 36524.25); a = z + 1 + alpha - Math.floor(alpha/4); }
+  var b = a + 1524;
+  var c = Math.floor((b - 122.1) / 365.25);
+  var d = Math.floor(365.25 * c);
+  var e = Math.floor((b - d) / 30.6001);
+  var day = Math.floor(b - d - Math.floor(30.6001*e) + f);
+  var month = e < 14 ? e - 1 : e - 13;
+  var year = month > 2 ? c - 4716 : c - 4715;
+  return String(year).padStart(4,"0") + "-" + String(month).padStart(2,"0") + "-" + String(day).padStart(2,"0");
+}
+
+
+
+/* ===================== Multi-tradition dignity/scoring engine ===================== */
+var EXALTATION_SIGN = {sun:"Mesha",moon:"Vrishabha",mars:"Makara",mercury:"Kanya",jupiter:"Karka",venus:"Meena",saturn:"Tula"};
+var DEBILITATION_SIGN = {sun:"Tula",moon:"Vrischika",mars:"Karka",mercury:"Meena",jupiter:"Makara",venus:"Kanya",saturn:"Mesha"};
+var OWN_SIGNS = {sun:["Simha"],moon:["Karka"],mars:["Mesha","Vrischika"],mercury:["Mithuna","Kanya"],jupiter:["Dhanu","Meena"],venus:["Vrishabha","Tula"],saturn:["Makara","Kumbha"]};
+var JYOTISHA_BENEFICS = {jupiter:1, venus:1, mercury:1, moon:1};
+var HELLENISTIC_BENEFICS = {jupiter:1, venus:1};
+var HELLENISTIC_MALEFICS = {mars:1, saturn:1};
+var HELLENISTIC_DAY_SECT = {sun:1, jupiter:1, saturn:1};
+var HELLENISTIC_NIGHT_SECT = {moon:1, venus:1, mars:1};
+var KENDRA = {1:1,4:1,7:1,10:1}, TRIKONA = {1:1,5:1,9:1}, DUSHTANA = {6:1,8:1,12:1};
+
+function dignityOfShared(graha, rashiName) {
+  if (!EXALTATION_SIGN[graha]) return "N/A";
+  if (rashiName === EXALTATION_SIGN[graha]) return "EXALTED";
+  if (rashiName === DEBILITATION_SIGN[graha]) return "DEBILITATED";
+  if ((OWN_SIGNS[graha]||[]).indexOf(rashiName) >= 0) return "OWN_SIGN";
+  return "NEUTRAL";
+}
+function houseKind(h) {
+  if (KENDRA[h]) return "kendra";
+  if (TRIKONA[h]) return "trikona";
+  if (DUSHTANA[h]) return "dushtana";
+  return "other";
+}
+function jyotishaScore(graha, rashiName, houseNum) {
+  var d = dignityOfShared(graha, rashiName);
+  var kind = houseKind(houseNum);
+  var dignPts = {EXALTED:2, OWN_SIGN:1, NEUTRAL:0, DEBILITATED:-2, "N/A":0}[d];
+  var housePts = {kendra:1, trikona:1, dushtana:-1, other:0}[kind];
+  var naturePts = JYOTISHA_BENEFICS[graha] ? 0.5 : -0.5;
+  return { score: dignPts + housePts + naturePts, dignity: d, houseKind: kind };
+}
+function hellenisticSectFavor(isDayChart, graha) {
+  if (HELLENISTIC_DAY_SECT[graha]) return isDayChart;
+  if (HELLENISTIC_NIGHT_SECT[graha]) return !isDayChart;
+  return null;
+}
+function hellenisticScore(graha, rashiName, isDayChart) {
+  var d = dignityOfShared(graha, rashiName);
+  var dignPts = {EXALTED:2, OWN_SIGN:1, NEUTRAL:0, DEBILITATED:-2, "N/A":0}[d];
+  var ofSect = hellenisticSectFavor(isDayChart, graha);
+  var sectPts = ofSect === true ? 0.5 : (ofSect === false ? -0.5 : 0.0);
+  var naturePts = HELLENISTIC_BENEFICS[graha] ? 0.5 : (HELLENISTIC_MALEFICS[graha] ? -0.5 : 0.0);
+  return { score: dignPts + sectPts + naturePts, dignity: d, ofSect: ofSect };
+}
+function classifyAgreement(jy, he) {
+  if (he === null || he.score === undefined) {
+    return { classification: "Tradition-specific", reasoning: "Hellenistic dignity/sect scoring does not apply to this graha (a lunar node) in this project's classical-7-planet implementation." };
+  }
+  var jySign = jy.score > 0 ? 1 : (jy.score < 0 ? -1 : 0);
+  var heSign = he.score > 0 ? 1 : (he.score < 0 ? -1 : 0);
+  if (jySign === 0 || heSign === 0) {
+    return { classification: "Insufficient", reasoning: "One or both combined scores are exactly neutral (Jyotisha=" + jy.score.toFixed(1) + ", Hellenistic=" + he.score.toFixed(1) + ")." };
+  }
+  if (jySign !== heSign) {
+    return { classification: "Contradictory", reasoning: "Jyotisha (" + jy.score.toFixed(1) + ") and Hellenistic (" + he.score.toFixed(1) + ") point in opposite directions." };
+  }
+  var gap = Math.abs(jy.score - he.score);
+  if (gap <= 1.0) {
+    return { classification: "Strong", reasoning: "Both traditions agree on dignity (" + jy.dignity + ") and their combined scores are closely aligned (Jyotisha " + jy.score.toFixed(1) + " vs Hellenistic " + he.score.toFixed(1) + ")." };
+  }
+  return { classification: "Moderate", reasoning: "Both traditions agree in direction but diverge in magnitude (Jyotisha " + jy.score.toFixed(1) + " vs Hellenistic " + he.score.toFixed(1) + ")." };
+}
+
+var CHINESE_STEMS = ["Jia","Yi","Bing","Ding","Wu","Ji","Geng","Xin","Ren","Gui"];
+var CHINESE_BRANCHES = ["Zi","Chou","Yin","Mao","Chen","Si","Wu","Wei","Shen","You","Xu","Hai"];
+var CHINESE_ANIMALS = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Rooster","Dog","Pig"];
+function chineseSexagenary(gregorianYear) {
+  var idx = ((gregorianYear - 1984) % 60 + 60) % 60;
+  return { stem: CHINESE_STEMS[idx % 10], branch: CHINESE_BRANCHES[idx % 12], animal: CHINESE_ANIMALS[idx % 12] };
+}
+
+
+
+/* ===================== SVG wheel chart renderer ===================== */
+var GRAHA_ABBREV = {sun:"Su",moon:"Mo",mars:"Ma",mercury:"Me",jupiter:"Ju",venus:"Ve",saturn:"Sa",rahu:"Ra",ketu:"Ke"};
+var GRAHA_ORDER = ["sun","moon","mars","mercury","jupiter","venus","saturn","rahu","ketu"];
+var CX=260, CY=260, R_OUTER=230, R_INNER=150, R_LABEL=190, R_PLANET=170;
+
+function degToXY(lonDeg, ascDeg, radius) {
+  var angle = (Math.PI/180) * (180.0 - (lonDeg - ascDeg));
+  return { x: CX + radius*Math.cos(angle), y: CY - radius*Math.sin(angle) };
+}
+
+function wheelSvg(title, subtitle, signNames, ascDeg, placements, annotations, footerLines) {
+  annotations = annotations || {};
+  footerLines = footerLines || [];
+  var h = 560 + 18*footerLines.length;
+  var parts = [];
+  parts.push('<svg viewBox="0 0 520 '+h+'" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">');
+  parts.push('<rect x="0" y="0" width="520" height="'+h+'" fill="#fdfcf7"/>');
+  parts.push('<text x="260" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">'+title+'</text>');
+  parts.push('<text x="260" y="50" text-anchor="middle" font-size="12" fill="#666">'+subtitle+'</text>');
+  parts.push('<circle cx="'+CX+'" cy="'+CY+'" r="'+R_OUTER+'" fill="none" stroke="#333" stroke-width="2"/>');
+  parts.push('<circle cx="'+CX+'" cy="'+CY+'" r="'+R_INNER+'" fill="none" stroke="#999" stroke-width="1"/>');
+  for (var i=0;i<12;i++) {
+    var s = i*30.0;
+    var p1 = degToXY(s, ascDeg, R_OUTER), p2 = degToXY(s, ascDeg, R_INNER);
+    parts.push('<line x1="'+p1.x.toFixed(1)+'" y1="'+p1.y.toFixed(1)+'" x2="'+p2.x.toFixed(1)+'" y2="'+p2.y.toFixed(1)+'" stroke="#bbb" stroke-width="1"/>');
+    var lp = degToXY(s+15.0, ascDeg, R_LABEL);
+    parts.push('<text x="'+lp.x.toFixed(1)+'" y="'+lp.y.toFixed(1)+'" text-anchor="middle" font-size="11" fill="#555">'+signNames[i]+'</text>');
+  }
+  var a1 = degToXY(ascDeg, ascDeg, R_OUTER+12), a2 = degToXY(ascDeg, ascDeg, R_INNER);
+  parts.push('<line x1="'+a1.x.toFixed(1)+'" y1="'+a1.y.toFixed(1)+'" x2="'+a2.x.toFixed(1)+'" y2="'+a2.y.toFixed(1)+'" stroke="#a33" stroke-width="2"/>');
+  parts.push('<text x="'+a1.x.toFixed(1)+'" y="'+(a1.y-4).toFixed(1)+'" text-anchor="middle" font-size="10" fill="#a33">ASC</text>');
+
+  var slotUsed = {};
+  placements.forEach(function(pl) {
+    var abbrev = pl[0], lon = pl[1];
+    var baseR = R_PLANET;
+    var key = Math.floor(lon/6);
+    slotUsed[key] = (slotUsed[key]||0) + 1;
+    var r = baseR - (slotUsed[key]-1)*16;
+    var pp = degToXY(lon, ascDeg, r);
+    parts.push('<circle cx="'+pp.x.toFixed(1)+'" cy="'+pp.y.toFixed(1)+'" r="13" fill="#fff" stroke="#333" stroke-width="1"/>');
+    parts.push('<text x="'+pp.x.toFixed(1)+'" y="'+(pp.y+4).toFixed(1)+'" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">'+abbrev+'</text>');
+    var badge = annotations[abbrev];
+    if (badge) parts.push('<text x="'+pp.x.toFixed(1)+'" y="'+(pp.y+22).toFixed(1)+'" text-anchor="middle" font-size="8" fill="#a33">'+badge+'</text>');
+  });
+
+  var y = 540;
+  footerLines.forEach(function(line) {
+    parts.push('<text x="20" y="'+y+'" font-size="11" fill="#444">'+line+'</text>');
+    y += 18;
+  });
+  parts.push('</svg>');
+  return parts.join("\n");
+}
+
+
+
+/* ===================== Per-tradition detailed report + reference card renderer ===================== */
+var HOUSE_SIG = {
+  1:"self, physical body, general vitality and personality",2:"wealth, family, speech, accumulated resources",
+  3:"courage, siblings, short journeys, effort and communication",4:"home, mother, emotional foundation, property",
+  5:"children, creativity, intelligence, romance, speculation",6:"health, conflict, debt, daily work, obstacles",
+  7:"partnerships, marriage, public dealings, open rivals",8:"transformation, longevity, sudden change, shared resources",
+  9:"fortune, higher learning, long journeys, father, dharma",10:"career, public status, authority, action in the world",
+  11:"gains, income, networks, hopes and larger ambitions",12:"loss, isolation, foreign lands, spiritual release, expenditure"
+};
+
+function jyotishaDetailedReport(grahaInfo, ascRashi, chineseYear, isDayChart) {
+  var order = ["sun","moon","mars","mercury","jupiter","venus","saturn","rahu","ketu"];
+  var html = "<p>The Jyotisha (Vedic/sidereal) chart is anchored on the Ascendant in <strong>" + ascRashi.name +
+    "</strong>, computed using this project's Lahiri-model ayanamsha. Each graha (planet) below is placed by " +
+    "sidereal longitude, then read for its sign-dignity (exalted / own sign / neutral / debilitated) and the " +
+    "classical significance of the house it occupies from this Ascendant.</p>";
+  html += "<table><tr><th>Graha</th><th>Rashi</th><th>Nakshatra</th><th>House</th><th>Dignity</th><th>House meaning</th></tr>";
+  order.forEach(function(g) {
+    var v = grahaInfo[g];
+    html += "<tr><td>" + g.charAt(0).toUpperCase()+g.slice(1) + "</td><td>" + v.rashi + "</td><td>" + v.nakshatra +
+      "</td><td>" + v.house + "</td><td>" + (v.jyDignity==="N/A"?"n/a (node)":v.jyDignity) + "</td><td>" + HOUSE_SIG[v.house] + "</td></tr>";
+  });
+  html += "</table>";
+  html += "<p>Jyotisha is the only tradition in this project with a full computed multi-cycle predictive layer " +
+    "(the Vimshottari Mahadasha/Antardasha system) -- see the general life narrative and decade breakdown above " +
+    "for how that timeline is used. This wheel and table are the static natal snapshot that timeline is built on.</p>";
+  return html;
+}
+
+function hellenisticDetailedReport(grahaInfo, ascRashi, isDayChart) {
+  var order = ["sun","moon","mars","mercury","jupiter","venus","saturn"];
+  var html = "<p>Hellenistic astrology (the Greco-Roman/Ptolemaic-era system this project models) uses the " +
+    "<strong>same sign-level dignity table</strong> as Jyotisha above (dignity itself doesn't differ by " +
+    "tradition in this implementation), but weighs it differently: by <em>sect</em> (whether the Sun is above " +
+    "or below the horizon at birth) rather than by house-from-Ascendant. This chart is a <strong>" +
+    (isDayChart ? "day chart" : "night chart") + "</strong> (Sun in house " + grahaInfo.sun.house + ").</p>";
+  html += "<table><tr><th>Planet</th><th>Sign</th><th>Dignity</th><th>Sect status</th><th>Hellenistic score</th></tr>";
+  order.forEach(function(g) {
+    var v = grahaInfo[g];
+    var sect = v.heSect === true ? "of-sect (favored)" : (v.heSect === false ? "contrary-to-sect" : "sect-neutral");
+    html += "<tr><td>" + g.charAt(0).toUpperCase()+g.slice(1) + "</td><td>" + v.rashi + "</td><td>" + v.jyDignity +
+      "</td><td>" + sect + "</td><td>" + v.heScore.toFixed(1) + "</td></tr>";
+  });
+  html += "</table>";
+  html += "<p>Rahu and Ketu (lunar nodes) have no Hellenistic equivalent in classical Greco-Roman practice and are " +
+    "excluded from this scoring, unlike the Jyotisha table which includes them. Whole Sign houses are used " +
+    "throughout (house 1 = the Ascendant's whole sign), matching documented Hellenistic practice.</p>";
+  return html;
+}
+
+function westernDetailedReport(tropicalInfo, ascWestern) {
+  var order = ["sun","moon","mercury","venus","mars","jupiter","saturn"];
+  var html = "<p>Modern tropical Western astrology places the zodiac by the seasons (0&deg; Aries = the March " +
+    "equinox) rather than by fixed stars, which is why these sign placements differ from the sidereal Jyotisha " +
+    "table above even though the underlying planetary positions are identical. Tropical Ascendant: <strong>" +
+    ascWestern.name + "</strong>.</p>";
+  html += "<table><tr><th>Planet</th><th>Tropical sign</th></tr>";
+  order.forEach(function(g) {
+    html += "<tr><td>" + g.charAt(0).toUpperCase()+g.slice(1) + "</td><td>" + tropicalInfo[g] + "</td></tr>";
+  });
+  html += "</table>";
+  html += "<p>This project computes tropical sign placement only -- no houses, aspects, or outer planets " +
+    "(Uranus/Neptune/Pluto are outside this engine's body list entirely), so this is deliberately a lighter, " +
+    "descriptive-only panel rather than a full modern natal-chart reading. No numeric valence/favorability score " +
+    "is assigned to Western placements in this system.</p>";
+  return html;
+}
+
+function chineseDetailedReport(chineseYear, birthYear) {
+  var html = "<p>The birth year " + birthYear + " falls in the sexagenary (60-year) cycle year of <strong>" +
+    chineseYear.stem + "-" + chineseYear.branch + "</strong>, commonly known as the Year of the <strong>" +
+    chineseYear.animal + "</strong>. This is computed from the real 10-Stem x 12-Branch cycle (Ganzhi), anchored " +
+    "to 1984 (a known Jia-Zi/Wood-Rat year) and projected forward or backward by exact modular arithmetic.</p>";
+  html += "<p>This project computes only the year-level animal/stem-branch placement, using Gregorian January 1 " +
+    "as an approximation of the lunisolar new year boundary (the real Chinese New Year falls in late " +
+    "January-February and shifts the true boundary by several weeks in either direction for people born near " +
+    "the edge of a year). Deeper Chinese systems -- BaZi (Four Pillars, which also needs month/day/hour pillars), " +
+    "Zi Wei Dou Shu (Purple Star Astrology), and Qi Men Dun Jia -- are not computed by this engine at all, and no " +
+    "numeric favorability score is assigned here.</p>";
+  return html;
+}
+
+function referenceDetailedReport(traditionLabel, entries) {
+  var html = "<p style='color:#a33;font-weight:bold'>Reference only -- not a computed chart.</p>";
+  html += "<p>This project has no calculation engine for " + traditionLabel + " astrology. What follows is real, " +
+    "sourced historical/technical background on the tradition itself, not a personalized reading for this " +
+    "specific birth data.</p>";
+  entries.forEach(function(e) {
+    html += "<p><strong>" + e.concept + "</strong> (" + e.origin + (e.period ? (", " + e.period) : "") + ") -- " +
+      e.definition + "</p>";
+  });
+  return html;
+}
+
+function referenceCardSvg(traditionLabel, entries) {
+  var h = 300 + entries.length * 90;
+  var parts = [];
+  parts.push('<svg viewBox="0 0 520 '+h+'" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">');
+  parts.push('<rect x="0" y="0" width="520" height="'+h+'" fill="#f7f4ec" stroke="#a33" stroke-width="3"/>');
+  parts.push('<text x="260" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">'+traditionLabel+'</text>');
+  parts.push('<text x="260" y="56" text-anchor="middle" font-size="12" fill="#a33">Reference card -- not a computed chart for this person</text>');
+  var y = 90;
+  entries.forEach(function(e) {
+    parts.push('<text x="24" y="'+y+'" font-size="14" font-weight="bold" fill="#333">'+e.concept+'</text>');
+    y += 18;
+    parts.push('<text x="24" y="'+y+'" font-size="10" fill="#777">'+e.origin+(e.period?(" -- "+e.period):"")+'</text>');
+    y += 20;
+    var words = e.definition.split(" ");
+    var line = "", lines = [];
+    words.forEach(function(w) {
+      if ((line+" "+w).length > 78) { lines.push(line); line = w; } else { line = line ? line+" "+w : w; }
+    });
+    if (line) lines.push(line);
+    lines.slice(0,4).forEach(function(l) {
+      parts.push('<text x="24" y="'+y+'" font-size="11" fill="#444">'+l.replace(/&/g,"&amp;").replace(/</g,"&lt;")+'</text>');
+      y += 15;
+    });
+    y += 18;
+  });
+  parts.push('</svg>');
+  return parts.join("\n");
+}
+
+
+
+/* ===================== Narrative generator (general life + decade breakdown) ===================== */
+var GRAHA_THEME = {
+  sun: "authority, visibility, executive action and one's own will",
+  moon: "public mood, emotional currents, mind and personal/domestic life",
+  mars: "confrontation, assertive drive, energy and sudden action",
+  mercury: "communication, negotiation, learning and information flow",
+  jupiter: "expansion, recognition, teaching/mentorship and institutional validation",
+  venus: "creativity, relationships, wealth and public appeal",
+  saturn: "discipline, delay, restriction, endurance and structural pressure",
+  rahu: "disruption, ambition, foreign/unconventional pursuits and sudden rise",
+  ketu: "withdrawal, introspection, loose ends and quiet transitions"
+};
+var VALENCE_WORDS = { strong_pos: "strongly favorable", mild_pos: "mildly favorable", neutral: "roughly neutral", mild_neg: "mildly challenging", strong_neg: "strongly challenging" };
+function valenceWord(score) {
+  if (score === null || score === undefined) return "unclear";
+  if (score >= 1.5) return VALENCE_WORDS.strong_pos;
+  if (score > 0) return VALENCE_WORDS.mild_pos;
+  if (score === 0) return VALENCE_WORDS.neutral;
+  if (score > -1.5) return VALENCE_WORDS.mild_neg;
+  return VALENCE_WORDS.strong_neg;
+}
+
+function buildGeneralNarrative(ctx) {
+  // ctx: {name, ascRashi, moonRashi, moonNak, tenthSign, tenthLord, tenthLordRashi, tenthLordDignity,
+  //       westernSunSign, chineseYear, timeAssumed}
+  var paras = [];
+  var timeNote = ctx.timeAssumed
+    ? "(birth time wasn't provided, so this reading assumes local midnight per this project's standing mundane-astrology rule -- the Ascendant and house-based findings below carry real uncertainty as a result)"
+    : "(using the specific birth time provided)";
+  paras.push(ctx.name + "'s natal chart rises in " + ctx.ascRashi + " " + timeNote + ", with the Moon in " +
+    ctx.moonRashi + " under the " + ctx.moonNak + " Nakshatra. In Jyotisha, the Moon is usually read as the seat " +
+    "of temperament and inner life, and matters comparatively less to birth-time precision than the Ascendant does " +
+    "-- so this Moon placement can be trusted more than the rising sign if the birth time is uncertain.");
+
+  paras.push("Looking at career and public standing through the 10th house from the Ascendant (" + ctx.tenthSign +
+    ", ruled by " + ctx.tenthLord.charAt(0).toUpperCase()+ctx.tenthLord.slice(1) + "): that planet sits in " +
+    ctx.tenthLordRashi + ", which this system's shared sign-level dignity table calls " +
+    ctx.tenthLordDignity.toLowerCase().replace("_"," ") + ". " +
+    (ctx.tenthLordDignity === "EXALTED" || ctx.tenthLordDignity === "OWN_SIGN"
+      ? "Classically this is read as a strong, well-supported placement for visible career achievement."
+      : ctx.tenthLordDignity === "DEBILITATED"
+      ? "Classically this placement asks for real, sustained effort in career matters rather than easy recognition."
+      : "This dignity placement alone doesn't argue strongly either way for career prominence -- it's one data point among many in a full chart."));
+
+  paras.push("For additional context -- purely descriptive, not folded into any dignity score, since this project " +
+    "has no validated way to assign these traditions a comparable favorability rating -- the tropical Western Sun " +
+    "sign here is " + ctx.westernSunSign + ", and the birth year falls in the Chinese sexagenary year of " +
+    ctx.chineseYear.stem + "-" + ctx.chineseYear.branch + ", the Year of the " + ctx.chineseYear.animal + ".");
+
+  paras.push("Several other historical astrological traditions -- Babylonian, Persian/Islamic, Tibetan, Egyptian, " +
+    "Japanese, and Mayan/Mesoamerican -- are documented separately in this reading with real historical sourcing, " +
+    "but this system has no working calculation engine for any of them, so none contribute a numeric finding here; " +
+    "see their own panels for what is actually known about each tradition rather than what this system can compute.");
+
+  return paras.join("\n\n");
+}
+
+function buildDecadeNarrative(name, mahas, antardashasForFn, jyotishaScoreFn, hellenisticScoreFn, classifyFn,
+                                grahaInfo, isDayChart, birthJd, jdToIsoDateFn, sideralYearDays) {
+  var paras = [];
+  var birthYear = parseInt(jdToIsoDateFn(birthJd).slice(0,4), 10);
+  for (var decade = 0; decade < 10; decade++) {
+    var decStartJd = birthJd + decade*10*sideralYearDays;
+    var decEndJd = birthJd + (decade+1)*10*sideralYearDays;
+    // find the Mahadasha covering the MIDPOINT of this decade (dominant-period heuristic)
+    var midJd = (decStartJd + decEndJd) / 2;
+    var maha = null;
+    for (var i=0;i<mahas.length;i++) { if (mahas[i].startJd <= midJd && midJd < mahas[i].endJd) { maha = mahas[i]; break; } }
+    if (!maha) continue;
+    var subs = antardashasForFn(maha.lord, maha.startJd);
+    var sub = null;
+    for (var j=0;j<subs.length;j++) { if (subs[j].startJd <= midJd && midJd < subs[j].endJd) { sub = subs[j]; break; } }
+    if (!sub) sub = subs[0];
+
+    var v = grahaInfo[sub.lord];
+    var jy = jyotishaScoreFn(sub.lord, v.rashi, v.house);
+    var he = (sub.lord === "rahu" || sub.lord === "ketu") ? null : hellenisticScoreFn(sub.lord, v.rashi, isDayChart);
+    var agree = classifyFn(jy, he);
+
+    var ageFrom = decade*10, ageTo = decade*10+10;
+    var p = "Ages " + ageFrom + "-" + ageTo + " (" + jdToIsoDateFn(decStartJd).slice(0,4) + "-" + jdToIsoDateFn(decEndJd).slice(0,4) + "): " +
+      "this decade's midpoint falls within " + maha.lord.toUpperCase() + " Mahadasha, " + sub.lord.toUpperCase() +
+      " Antardasha. " + sub.lord.charAt(0).toUpperCase()+sub.lord.slice(1) + " is natally placed in house " + v.house +
+      " in " + v.rashi + ", " + jy.dignity.toLowerCase().replace("_"," ") + " by sign. Jyotisha reads this combination as " +
+      valenceWord(jy.score) + " for this decade" +
+      (he ? (", and Hellenistic astrology (applied to the same sign data, weighted by sect instead of house) reads it as " +
+             valenceWord(he.score) + " -- the two traditions show " + agree.classification.toUpperCase() + " agreement here.")
+          : ", while Hellenistic astrology has no equivalent scoring for this lunar node, so only the Jyotisha finding applies.") +
+      " Classical themes for this period center on " + GRAHA_THEME[sub.lord] + ".";
+    paras.push(p);
+  }
+  return paras.join("\n\n");
+}
+
+
+
+/* ===================== Shared data tables ===================== */
+var RASHI_LORD = {Mesha:"mars",Vrishabha:"venus",Mithuna:"mercury",Karka:"moon",Simha:"sun",Kanya:"mercury",Tula:"venus",Vrischika:"mars",Dhanu:"jupiter",Makara:"saturn",Kumbha:"saturn",Meena:"jupiter"};
+var GRAHA_THEME = {
+  sun: "authority, visibility, executive action and one's own will", moon: "public mood, emotional currents, mind and personal/domestic life",
+  mars: "confrontation, assertive drive, energy and sudden action", mercury: "communication, negotiation, learning and information flow",
+  jupiter: "expansion, recognition, teaching/mentorship and institutional validation", venus: "creativity, relationships, wealth and public appeal",
+  saturn: "discipline, delay, restriction, endurance and structural pressure", rahu: "disruption, ambition, foreign/unconventional pursuits and sudden rise",
+  ketu: "withdrawal, introspection, loose ends and quiet transitions"
+};
+var REF_TRADITIONS = {"Babylonian": [{"concept": "Celestial omen compilation", "definition": "A canonical Mesopotamian series of roughly 70 cuneiform tablets containing an estimated 6,500-7,000 celestial/meteorological omens, pairing an observed phenomenon (protasis) with a predicted consequence (apodosis), overwhelmingly focused on the king and state rather than individuals.", "period": "Origins traced to the Old Babylonian period (2nd millennium BCE), compiled into its canonical form later.", "origin": "Mesopotamia"}, {"concept": "Star catalog / astronomical compendium", "definition": "A two-tablet compendium organizing stars into the 'paths' of Ea, Anu, and Enlil, including fixed-star (ziqpu) lists, planetary information, heliacal risings, the Moon's path, calendrical intercalation rules, and a shadow-clock table.", "period": "Compiled roughly 1000 BCE, based on older material.", "origin": "Mesopotamia"}, {"concept": "Astronomical Diaries", "definition": "Regular cuneiform records (Late Babylonian period) of celestial observations (planetary positions, eclipses, etc.) alongside terrestrial events (river levels, prices, political events) for the same period -- among the longest-running systematic observational records in the ancient world.", "period": "Late Babylonian period, roughly 7th century BCE - 1st century CE.", "origin": "Mesopotamia (Babylon)"}], "Persian / Islamic": [{"concept": "Translation movement", "definition": "The systematic translation of Hellenistic (and some Indian and Persian/Pahlavi) astrological and astronomical texts into Arabic, centered on Baghdad's House of Wisdom and related institutions, forming the textual basis of Islamic Golden Age astrology.", "period": "c. 8th-10th century CE", "origin": "Abbasid Caliphate (Baghdad and other centers)"}, {"concept": "Indian astronomical/astrological influence", "definition": "Alongside Greek material, Indian astronomical texts (via Sanskrit-to-Arabic/Pahlavi routes, notably associated with the transmission of works in the Sindhind tradition) also fed into early Islamic astronomy/astrology.", "period": "c. 8th century CE onward", "origin": "Transmitted from the Indian subcontinent into the early Abbasid world"}, {"concept": "Abu Ma'shar al-Balkhi", "definition": "A major 9th-century Persian astrologer, best known in the Latin West as 'Albumasar'; author of works on general astrology and, notably, on the theory of historical/political cycles tied to great planetary conjunctions.", "period": "c. 787-886 CE", "origin": "Balkh (in modern Afghanistan) / Baghdad"}], "Tibetan": [{"concept": "Kartsi and Nagtsi", "definition": "Tibetan astrology is traditionally divided into 'Kartsi' (white/celestial calculation, derived from the Kalachakra Tantra's Indian-origin astronomical/astrological system) and 'Nagtsi' (black/elemental calculation, derived from Chinese-origin elemental and divinatory systems, sometimes linked to Bon tradition). The two strands are used together in practice (e.g. for a full natal reading or for determining an auspicious date).", "period": "Kalachakra Tantra transmitted to Tibet by the 11th century CE; elemental/Nagtsi strand's Chinese-linked origins are older by local tradition but precise dating is less firmly established in Western scholarship.", "origin": "Tibet (via India for Kartsi, via China/Bon for Nagtsi)"}, {"concept": "Tsurphu (Karma Kagyu) astrological lineage", "definition": "One of the two major living Tibetan calculation systems, founded by the 3rd Karmapa Rangjung Dorje (1284-1339) and further developed by Pawo Tsuklak Trengwa (1504-1566); still used within Karmapa/Karma Kagyu monastic institutions. Uses a distinct ('precise') system for Sun/Moon longitude calculation and the full traditional system for the other planets.", "period": "14th century founding, 16th century further systematization.", "origin": "Tibet (Tsurphu Monastery / Karma Kagyu lineage)"}, {"concept": "Phugpa astrological lineage", "definition": "The second major living Tibetan calculation system, founded by Phugpa Lhundrub Gyatso (15th century) and Norzang Gyatso (1423-1513), developed specifically to reconcile discrepancies between the Kalachakra's Indian-derived solar-longitude calculations and observed positions in Tibet. This is the lineage officially used by the institution of the Dalai Lama.", "period": "15th-16th century.", "origin": "Tibet"}], "Egyptian": [{"concept": "Decans (36 ten-day star groups)", "definition": "36 groups of stars (decans), each associated with a ~10-day period of the 360-day civil calendar (plus 5 epagomenal days), used for nighttime timekeeping via their heliacal risings; attested on coffin lids ('diagonal star clocks') from the Middle Kingdom onward. The decan system is historically significant as a likely contributor (via Hellenistic Egypt) to the 36 Hellenistic/Western zodiac decans (3 decans per zodiac sign).", "period": "Diagonal star clocks attested from the Middle Kingdom (c. 2100-1700 BCE); decans continued in use through the Ptolemaic period, where they became linked to the 12-sign zodiac (itself a Babylonian/Hellenistic import into Egypt, not a native Egyptian invention).", "origin": "Ancient Egypt"}, {"concept": "Egyptian adoption of the Babylonian/Hellenistic zodiac", "definition": "The familiar 12-sign zodiac (as depicted famously on the Dendera Temple ceiling relief, Ptolemaic/Roman period) was adopted into Egypt from Babylonian/Hellenistic astronomy/astrology; it is NOT a native ancient Egyptian invention, despite popular framing to the contrary.", "period": "Ptolemaic period (post-4th century BCE) through Roman Egypt; the Dendera zodiac itself dates to c. 50 BCE.", "origin": "Egypt (import, ultimate origin Mesopotamia)"}, {"concept": "Modern 'Egyptian zodiac' god-signs", "definition": "A widely circulated modern system assigning personality profiles to 12 Egyptian deities (e.g. Horus, Isis, Osiris) by birth-date range, popularized in modern books/websites. This is a MODERN SYNCRETIC INVENTION, not an ancient Egyptian astrological system -- it is included here only to explicitly distinguish it from the genuine ancient decan tradition above, since the two are frequently and incorrectly conflated in popular sources.", "period": "Modern (20th-21st century popular astrology publishing).", "origin": "Not ancient Egypt -- modern Western pop-astrology"}], "Japanese": [{"concept": "Onmyodo (the way of Yin and Yang)", "definition": "Japan's historical cosmological/divinatory discipline, built on Yin-Yang (Onmyo) and Wu Xing/Gogyo (Five Elements) theory transmitted from China (via Korea), combined with native Japanese elements; practiced by a specialized court bureau (the Onmyoryo) for divination, calendar-making, and ritual timing.", "period": "Formalized as a state bureau (Onmyoryo) under the Ritsuryo legal system from the late 7th century CE; most famously associated with the Heian-period onmyoji Abe no Seimei (921-1005 CE).", "origin": "Japan (via Chinese/Korean transmission)"}, {"concept": "Gogyo", "definition": "The Japanese adaptation of the Chinese Wu Xing five-element framework (Wood/Moku, Fire/Ka, Earth/Do, Metal/Kin, Water/Sui), applied within Onmyodo's divinatory and calendrical practice.", "period": "Transmitted alongside Onmyodo's formalization, 7th century CE.", "origin": "Japan (via China)"}, {"concept": "Kyusei Nine Star Ki", "definition": "A still-popular natal/fortune system assigning one of 9 numbered 'stars' by birth year (with a secondary monthly star), each linked to a Wu-Xing element and a position in a 3x3 Magic-Square-like grid (Ki-mon/Later Heaven Bagua arrangement) used to analyze yearly/directional fortune -- historically and structurally related to the Chinese Qi Men Dun Jia / Feng Shui Flying Star traditions.", "period": "Popularized in Japan in the modern era (20th century), though its numerological/Bagua-grid roots are much older Chinese concepts.", "origin": "Japan (via Chinese-origin concepts)"}], "Mesoamerican (Maya/Aztec)": [{"concept": "Tzolk'in (260-day sacred count)", "definition": "A 260-day ritual/divinatory calendar combining 20 named days with 13 numbers (20x13=260), used across Mesoamerica (Maya, and related forms among the Aztec/Mexica as the Tonalpohualli) for naming individuals, timing rituals, and divination; each of the 260 day-signs carries traditional symbolic/prognosticatory associations recorded in surviving codices.", "period": "Long-attested pre-Classic through Postclassic Maya civilization and beyond into the colonial period (some living use continues today, e.g. among Ixil and K'iche' daykeepers in Guatemala).", "origin": "Mesoamerica (Maya region; related systems across the broader Mesoamerican cultural area)"}, {"concept": "Tonalpohualli (260-day count, Aztec/Mexica form)", "definition": "The Aztec/Mexica 260-day ritual calendar, structurally the same 20-day-sign x 13-number system as the Maya Tzolk'in, with different day-sign names and deity associations reflecting the distinct Nahua cultural context; used for naming, ritual timing, and divinatory day-sign interpretation (tonalamatl books of days).", "period": "Postclassic period Mexica civilization (14th-16th century CE), documented extensively in colonial-era codices (e.g. Codex Borbonicus, Codex Borgia).", "origin": "Central Mexico (Aztec/Mexica)"}, {"concept": "Haab' (365-day solar calendar)", "definition": "An 18-month x 20-day (plus a 5-day Wayeb' period) 365-day approximate solar calendar, run in parallel with the Tzolk'in; the combination of a Tzolk'in date and a Haab' date repeats only once every 52 years (the 'Calendar Round').", "period": "Long-attested Maya civilization use, pre-Classic onward.", "origin": "Mesoamerica (Maya)"}]};
+
+/* ===================== City list ===================== */
+var CITIES = {
+  "New Delhi, India": {lat: 28.6139, lon: 77.2090, utc: 5.5},
+  "Mumbai, India": {lat: 19.0760, lon: 72.8777, utc: 5.5},
+  "Kolkata, India": {lat: 22.5726, lon: 88.3639, utc: 5.5},
+  "Chennai, India": {lat: 13.0827, lon: 80.2707, utc: 5.5},
+  "Bangalore, India": {lat: 12.9716, lon: 77.5946, utc: 5.5},
+  "Hyderabad, India": {lat: 17.3850, lon: 78.4867, utc: 5.5},
+  "Patna, India": {lat: 25.5941, lon: 85.1376, utc: 5.5},
+  "Pune, India": {lat: 18.5204, lon: 73.8567, utc: 5.5},
+  "Ahmedabad, India": {lat: 23.0225, lon: 72.5714, utc: 5.5},
+  "Jaipur, India": {lat: 26.9124, lon: 75.7873, utc: 5.5},
+  "Lucknow, India": {lat: 26.8467, lon: 80.9462, utc: 5.5},
+  "Bhopal, India": {lat: 23.2599, lon: 77.4126, utc: 5.5},
+  "Chandigarh, India": {lat: 30.7333, lon: 76.7794, utc: 5.5},
+  "Kochi, India": {lat: 9.9312, lon: 76.2673, utc: 5.5},
+  "Guwahati, India": {lat: 26.1445, lon: 91.7362, utc: 5.5},
+  "Bhubaneswar, India": {lat: 20.2961, lon: 85.8245, utc: 5.5},
+  "Ranchi, India": {lat: 23.3441, lon: 85.3096, utc: 5.5},
+  "Varanasi, India": {lat: 25.3176, lon: 82.9739, utc: 5.5},
+  "Karachi, Pakistan": {lat: 24.8607, lon: 67.0011, utc: 5.0},
+  "Dhaka, Bangladesh": {lat: 23.8103, lon: 90.4125, utc: 6.0},
+  "Kathmandu, Nepal": {lat: 27.7172, lon: 85.3240, utc: 5.75},
+  "Colombo, Sri Lanka": {lat: 6.9271, lon: 79.8612, utc: 5.5},
+  "New York, USA": {lat: 40.7128, lon: -74.0060, utc: -5.0},
+  "Los Angeles, USA": {lat: 34.0522, lon: -118.2437, utc: -8.0},
+  "Chicago, USA": {lat: 41.8781, lon: -87.6298, utc: -6.0},
+  "London, UK": {lat: 51.5074, lon: -0.1278, utc: 0.0},
+  "Paris, France": {lat: 48.8566, lon: 2.3522, utc: 1.0},
+  "Berlin, Germany": {lat: 52.5200, lon: 13.4050, utc: 1.0},
+  "Moscow, Russia": {lat: 55.7558, lon: 37.6173, utc: 3.0},
+  "Beijing, China": {lat: 39.9042, lon: 116.4074, utc: 8.0},
+  "Shanghai, China": {lat: 31.2304, lon: 121.4737, utc: 8.0},
+  "Tokyo, Japan": {lat: 35.6762, lon: 139.6503, utc: 9.0},
+  "Seoul, South Korea": {lat: 37.5665, lon: 126.9780, utc: 9.0},
+  "Sydney, Australia": {lat: -33.8688, lon: 151.2093, utc: 10.0},
+  "Dubai, UAE": {lat: 25.2048, lon: 55.2708, utc: 4.0},
+  "Singapore": {lat: 1.3521, lon: 103.8198, utc: 8.0},
+  "Toronto, Canada": {lat: 43.6532, lon: -79.3832, utc: -5.0},
+  "Sao Paulo, Brazil": {lat: -23.5505, lon: -46.6333, utc: -3.0},
+  "Cairo, Egypt": {lat: 30.0444, lon: 31.2357, utc: 2.0},
+  "Johannesburg, South Africa": {lat: -26.2041, lon: 28.0473, utc: 2.0},
+  "Mexico City, Mexico": {lat: 19.4326, lon: -99.1332, utc: -6.0}
+};
+
+
+var citySelect = document.getElementById("in-city");
+Object.keys(CITIES).sort().forEach(function(name) {
+  var opt = document.createElement("option");
+  opt.value = name; opt.textContent = name;
+  citySelect.appendChild(opt);
+});
+document.getElementById("manual-toggle").addEventListener("click", function() {
+  var mf = document.getElementById("manual-fields");
+  mf.style.display = mf.style.display === "flex" ? "none" : "flex";
+});
+
+/* ===================== Report builder ===================== */
+function buildFullReport(jd, lat, lon, entityName, entityType, timeAssumed) {
+  var chart = computeChart(jd, lat, lon);
+  var ascRashi = rashiFor(chart.ascendantSidereal);
+  var ascWestern = westernSignFor(chart.ascendantTropical);
+  var grahaOrder = ["sun","moon","mars","mercury","jupiter","venus","saturn","rahu","ketu"];
+  var grahaInfo = {};
+  var sunHouseTemp = houseNumber(rashiFor(chart.sidereal.sun).index, ascRashi.index);
+  var isDayChart = sunHouseTemp >= 7 && sunHouseTemp <= 12;
+  grahaOrder.forEach(function(g) {
+    var r = rashiFor(chart.sidereal[g]);
+    var house = houseNumber(r.index, ascRashi.index);
+    var jy = jyotishaScore(g, r.name, house);
+    var he = (g === "rahu" || g === "ketu") ? null : hellenisticScore(g, r.name, isDayChart);
+    grahaInfo[g] = {
+      rashi: r.name, nakshatra: nakshatraFor(chart.sidereal[g]).name, house: house,
+      jyDignity: jy.dignity, jyScore: jy.score,
+      heDignity: he ? he.dignity : "N/A", heScore: he ? he.score : 0, heSect: he ? he.ofSect : null
+    };
+  });
+  var tropicalInfo = {};
+  grahaOrder.slice(0,7).forEach(function(g){ tropicalInfo[g] = westernSignFor(chart.tropical[g]).name; });
+
+  var birthYear = parseInt(jdToIsoDate(jd).slice(0,4), 10);
+  var chineseYear = chineseSexagenary(birthYear);
+  var mahas = fullLifetimeMahadashas(jd, chart.sidereal.moon, 100);
+
+  var tenthSignIdx = (ascRashi.index + 9) % 12;
+  var tenthSign = RASHI_NAMES[tenthSignIdx];
+  var tenthLord = RASHI_LORD[tenthSign];
+  var tenthLordDignity = grahaInfo[tenthLord].jyDignity;
+
+  // ---- Combined short prediction ----
+  var currentMaha = null;
+  var todayJd = julianDay(new Date().getFullYear(), new Date().getMonth()+1, new Date().getDate(), 12);
+  for (var i=0;i<mahas.length;i++) { if (mahas[i].startJd <= todayJd && todayJd < mahas[i].endJd) { currentMaha = mahas[i]; break; } }
+  var curLordInfo = currentMaha ? grahaInfo[currentMaha.lord] : null;
+  var curAgree = curLordInfo ? classifyAgreement(jyotishaScore(currentMaha.lord, curLordInfo.rashi, curLordInfo.house), (currentMaha.lord==="rahu"||currentMaha.lord==="ketu") ? null : hellenisticScore(currentMaha.lord, curLordInfo.rashi, isDayChart)) : null;
+  var mahaPhrase = currentMaha ? ("is currently in " + currentMaha.lord.toUpperCase() + " Mahadasha (Jyotisha)") :
+    "is outside this tool's 100-year computed Mahadasha horizon as of today (a historical birth date), so no current-period reading applies";
+  var shortPred = entityName + " " + mahaPhrase + ". 10th-lord " + tenthLord + " is natally " + tenthLordDignity.toLowerCase().replace("_"," ") +
+    ", and the birth year falls in the Chinese year of the " + chineseYear.animal + ". " +
+    (curAgree ? ("Jyotisha/Hellenistic cross-check on the current period: " + curAgree.classification + " agreement. ") : "") +
+    "Full reasoning below.";
+
+  document.getElementById("short-pred").textContent = shortPred;
+
+  // ---- General narrative ----
+  var ctx = {
+    name: entityName, ascRashi: ascRashi.name, moonRashi: grahaInfo.moon.rashi, moonNak: grahaInfo.moon.nakshatra,
+    tenthSign: tenthSign, tenthLord: tenthLord, tenthLordRashi: grahaInfo[tenthLord].rashi, tenthLordDignity: tenthLordDignity,
+    westernSunSign: tropicalInfo.sun, chineseYear: chineseYear, timeAssumed: timeAssumed
+  };
+  var general = buildGeneralNarrative(ctx);
+  var decades = buildDecadeNarrative(entityName, mahas, antardashasFor, jyotishaScore, hellenisticScore, classifyAgreement, grahaInfo, isDayChart, jd, jdToIsoDate, SIDEREAL_YEAR_DAYS);
+  document.getElementById("general-narrative").innerHTML = general.split("\n\n").map(function(p){return "<p>"+p+"</p>";}).join("");
+  document.getElementById("decade-narrative").innerHTML = decades.split("\n\n").map(function(p){return "<p>"+p+"</p>";}).join("");
+  var totalChars = general.length + decades.length;
+  document.getElementById("char-count").textContent = "General reading + decade breakdown: " + totalChars + " characters.";
+
+  // ---- Gallery: 4 computed + 6 reference panels ----
+  var tabsEl = document.getElementById("tabs");
+  var panelsEl = document.getElementById("panels");
+  tabsEl.innerHTML = ""; panelsEl.innerHTML = "";
+
+  var placementsFor = function(subset) {
+    return subset.map(function(g){ return [GRAHA_ABBREV[g], chart.sidereal[g], null]; });
+  };
+
+  var panels = [];
+
+  // Jyotisha
+  panels.push({
+    id: "jyotisha", label: "Jyotisha (Vedic)", kind: "computed",
+    svg: wheelSvg(entityName + " -- Jyotisha (Sidereal)", "Ascendant " + ascRashi.name + (timeAssumed?" (time assumed midnight)":""),
+      RASHI_NAMES, ascRashi.index*30, placementsFor(grahaOrder), {}, ["Computed chart -- Lahiri-model ayanamsha."]),
+    report: jyotishaDetailedReport(grahaInfo, ascRashi, chineseYear, isDayChart)
+  });
+  // Hellenistic
+  var heAnnot = {};
+  grahaOrder.slice(0,7).forEach(function(g){ if (grahaInfo[g].heSect === true) heAnnot[GRAHA_ABBREV[g]] = "of-sect"; else if (grahaInfo[g].heSect === false) heAnnot[GRAHA_ABBREV[g]] = "contra-sect"; });
+  panels.push({
+    id: "hellenistic", label: "Hellenistic", kind: "computed",
+    svg: wheelSvg(entityName + " -- Hellenistic", (isDayChart?"Day chart":"Night chart") + " -- same sign data as Jyotisha, sect-weighted",
+      RASHI_NAMES, ascRashi.index*30, placementsFor(grahaOrder.slice(0,7)), heAnnot, ["Computed chart -- Whole Sign houses, sect-based scoring."]),
+    report: hellenisticDetailedReport(grahaInfo, ascRashi, isDayChart)
+  });
+  // Western
+  panels.push({
+    id: "western", label: "Western (Tropical)", kind: "computed",
+    svg: wheelSvg(entityName + " -- Western (Tropical)", "Ascendant " + ascWestern.name,
+      WESTERN_SIGN_NAMES, ascWestern.index*30, grahaOrder.slice(0,7).map(function(g){return [GRAHA_ABBREV[g], chart.tropical[g], null];}), {}, ["Computed chart -- tropical sign placement only, no houses/aspects."]),
+    report: westernDetailedReport(tropicalInfo, ascWestern)
+  });
+  // Chinese
+  panels.push({
+    id: "chinese", label: "Chinese", kind: "computed",
+    svg: referenceCardSvg("Chinese -- " + chineseYear.stem + "-" + chineseYear.branch + " (" + chineseYear.animal + ")",
+      [{concept:"Year pillar", origin:"Computed", period:"Birth year " + birthYear, definition:"Sexagenary cycle position: " + chineseYear.stem + " Stem, " + chineseYear.branch + " Branch, Year of the " + chineseYear.animal + ". Only the year pillar is computed; month/day/hour pillars (full BaZi) are not."}]),
+    report: chineseDetailedReport(chineseYear, birthYear)
+  });
+  // 6 reference traditions
+  Object.keys(REF_TRADITIONS).forEach(function(label) {
+    var entries = REF_TRADITIONS[label];
+    panels.push({
+      id: label.toLowerCase().replace(/[^a-z]+/g,"-"), label: label, kind: "reference",
+      svg: referenceCardSvg(label, entries),
+      report: referenceDetailedReport(label, entries)
+    });
+  });
+
+  panels.forEach(function(p, idx) {
+    var btn = document.createElement("button");
+    btn.type = "button"; btn.className = "tab-btn " + p.kind; btn.textContent = p.label;
+    btn.addEventListener("click", function() { showPanel(idx); });
+    tabsEl.appendChild(btn);
+
+    var div = document.createElement("div");
+    div.className = "panel"; div.id = "panel-" + p.id;
+    div.innerHTML = '<div class="panel-chart">' + p.svg + '</div>' +
+      '<div class="gallery-nav"><span class="stat-badge">' + (idx+1) + ' / ' + panels.length + '</span>' +
+      '<span class="stat-badge">' + (p.kind === "computed" ? "Computed chart" : "Reference only") + '</span></div>' +
+      '<div class="panel-report">' + p.report + '</div>';
+    panelsEl.appendChild(div);
+  });
+
+  window._panelCount = panels.length;
+  window._panelIds = panels.map(function(p){return p.id;});
+  window._tabBtns = tabsEl.querySelectorAll(".tab-btn");
+  function showPanel(idx) {
+    document.querySelectorAll(".panel").forEach(function(d){ d.classList.remove("active"); });
+    window._tabBtns.forEach(function(b){ b.classList.remove("active"); });
+    document.getElementById("panel-" + window._panelIds[idx]).classList.add("active");
+    window._tabBtns[idx].classList.add("active");
+  }
+  showPanel(0);
+
+  document.getElementById("report").style.display = "block";
+}
+
+document.getElementById("birth-form").addEventListener("submit", function(ev) {
+  ev.preventDefault();
+  var name = document.getElementById("in-name").value || "This entity";
+  var entityType = document.getElementById("in-type").value;
+  var dateStr = document.getElementById("in-date").value;
+  var timeStr = document.getElementById("in-time").value;
+  var timeAssumed = !timeStr;
+  if (!dateStr) return;
+  var lat, lon, utcOffset;
+  var cityName = citySelect.value;
+  var manualVisible = document.getElementById("manual-fields").style.display === "flex";
+  if (manualVisible || !cityName) {
+    lat = parseFloat(document.getElementById("in-lat").value);
+    lon = parseFloat(document.getElementById("in-lon").value);
+    utcOffset = parseFloat(document.getElementById("in-utc").value);
+    if (isNaN(lat) || isNaN(lon) || isNaN(utcOffset)) { alert("Please select a city or enter latitude, longitude and UTC offset manually."); return; }
+  } else {
+    var c = CITIES[cityName];
+    lat = c.lat; lon = c.lon; utcOffset = c.utc;
+  }
+  var parts = dateStr.split("-").map(Number);
+  var y = parts[0], mo = parts[1], d = parts[2];
+  var hh = 0, mm = 0;
+  if (!timeAssumed) { var tparts = timeStr.split(":").map(Number); hh = tparts[0]; mm = tparts[1]; }
+  var localHour = hh + mm/60;
+  var utcHour = localHour - utcOffset;
+  var jd = julianDay(y, mo, d, utcHour < 0 ? utcHour + 24 : utcHour);
+  if (utcHour < 0) jd -= 1;
+  if (utcHour >= 24) jd += 1;
+  buildFullReport(jd, lat, lon, name, entityType, timeAssumed);
+  if (document.getElementById("report").scrollIntoView) { document.getElementById("report").scrollIntoView({behavior:"smooth"}); }
+});
+</script>
+</body>
+</html>

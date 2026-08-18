@@ -1,0 +1,58 @@
+{
+  "name": "astrowatch-kundli-studio",
+  "productName": "Astrowatch Kundli Studio",
+  "version": "1.0.0",
+  "description": "Vedic kundli chart, Mahadasha/Antardasha, Yogini Dasha, Varshaphal and Ashtakoot match-making desktop app, powered by the real Swiss Ephemeris library.",
+  "main": "main.js",
+  "author": "Astrowatch",
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "dist:mac": "electron-builder --mac"
+  },
+  "dependencies": {
+    "sweph": "^2.10.3-7"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.astrowatch.kundlistudio",
+    "productName": "Astrowatch Kundli Studio",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "!renderer/body.html"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/ephemeris",
+        "to": "ephemeris"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.education",
+      "target": [
+        { "target": "dmg", "arch": ["arm64", "x64"] },
+        { "target": "zip", "arch": ["arm64", "x64"] }
+      ],
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
+    "dmg": {
+      "title": "Astrowatch Kundli Studio",
+      "contents": [
+        { "x": 130, "y": 220, "type": "file" },
+        { "x": 410, "y": 220, "type": "link", "path": "/Applications" }
+      ]
+    }
+  }
+}

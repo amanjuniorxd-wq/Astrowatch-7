@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+<title>Astrowatch Kundli Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="row">
+    <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20fill%3D%22%23ffffff%22/%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22none%22%20stroke%3D%22%230a0a0a%22%20stroke-width%3D%224%22/%3E%3Ctext%20x%3D%2250%22%20y%3D%2262%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2242%22%20fill%3D%22%230a0a0a%22%20text-anchor%3D%22middle%22%3EAW%3C/text%3E%3C/svg%3E" alt="Astrowatch">
+    <div class="brandtext">
+      <div class="name">Astrowatch</div>
+      <div class="tag">Kundli Studio -- Desktop</div>
+    </div>
+    <div class="engine-badge" id="engine-badge">Checking calculation engine...</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="report-header-print" id="print-header"></div>
+
+  <h1>Natal Chart, Dashas &amp; Match-Making</h1>
+  <div class="lede">A full Vedic horoscope studio computed entirely in your browser: kundli chart picture, Vimshottari Mahadasha/Antardasha, Yogini Dasha, Varshaphal and Ashtakoot match-making -- reengineered from a legacy offline Kundli desktop application. Save any chart as a <strong>.kun</strong> file to reopen later.</div>
+
+  <div class="warn" id="precision-note">
+    <strong>Precision note.</strong> <span id="precision-note-engine">Checking whether the native Swiss Ephemeris engine is available...</span> Place lookups use a bundled historical place database with meridian-based standard-time offsets (no daylight-saving handling). Match-making (Ashtakoot) tables were checked against live reference sources, with two disclosed simplifications noted in the Match-Making tab. This is an astrological calculation, not a forecast.
+  </div>
+
+  <div class="mode-tabs">
+    <button type="button" class="active" id="tab-horoscope">Horoscope</button>
+    <button type="button" id="tab-match">Match-Making</button>
+  </div>
+
+  <div class="mode-panel active" id="panel-horoscope">
+    <section class="card" id="form-card">
+      <div class="legend">Birth details</div>
+      <div class="grid">
+        <div class="field">
+          <label for="in-name">Name (optional)</label>
+          <input type="text" id="in-name" placeholder="e.g. Aman">
+        </div>
+        <div class="field">
+          <label for="in-date">Date of birth</label>
+          <input type="date" id="in-date" required>
+        </div>
+        <div class="field">
+          <label for="in-time">Time of birth</label>
+          <input type="time" id="in-time" required step="60">
+        </div>
+        <div class="field" style="grid-column:span 2;">
+          <label for="in-place">Place of birth</label>
+          <input type="text" id="in-place" placeholder="Start typing a city or town..." autocomplete="off">
+          <div class="autocomplete-list" id="place-list"></div>
+        </div>
+      </div>
+      <div class="manual-toggle-row" id="manual-toggle">Enter coordinates manually instead</div>
+      <div class="manual-fields grid" id="manual-fields">
+        <div class="field"><label>Latitude (+N / -S)</label><input type="number" step="0.0001" id="in-lat" placeholder="e.g. 28.6139"></div>
+        <div class="field"><label>Longitude (+E / -W)</label><input type="number" step="0.0001" id="in-lon" placeholder="e.g. 77.2090"></div>
+        <div class="field"><label>UTC offset (hours)</label><input type="number" step="0.25" id="in-utc" placeholder="e.g. 5.5"></div>
+      </div>
+
+      <div class="subrow">
+        <div class="field style-select">
+          <label>Chart style</label>
+          <select id="in-chart-style">
+            <option value="north">North Indian</option>
+            <option value="south">South Indian</option>
+            <option value="sudarshan">Sudarshan Chakra (Lagna + Chandra + Surya)</option>
+          </select>
+        </div>
+        <div class="check-field"><input type="checkbox" id="in-house-numbers" checked><label for="in-house-numbers">Show sign numbers on chart</label></div>
+      </div>
+
+      <div class="letterhead-toggle" id="letterhead-toggle">Add prepared-by details for print/export (optional)</div>
+      <div class="letterhead-fields grid" id="letterhead-fields">
+        <div class="field"><label>Prepared by</label><input type="text" id="lh-name" placeholder="Astrologer / firm name"></div>
+        <div class="field"><label>Address</label><input type="text" id="lh-addr" placeholder="Address"></div>
+        <div class="field"><label>Phone</label><input type="text" id="lh-phone" placeholder="Phone"></div>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="primary" id="btn-generate">Generate chart</button>
+        <button type="button" id="btn-save" disabled>Save chart (.kun)</button>
+        <span class="file-btn"><button type="button" id="btn-load">Load chart (.kun)</button><input type="file" id="file-load" accept=".kun,application/json"></span>
+        <button type="button" id="btn-print" disabled>Print</button>
+        <button type="button" id="btn-reset">Reset</button>
+      </div>
+      <div class="err" id="form-err" style="display:none;"></div>
+    </section>
+
+    <div id="report"></div>
+  </div>
+
+  <div class="mode-panel" id="panel-match">
+    <section class="card mini-person" id="boy-card">
+      <div class="legend">Boy / partner A</div>
+      <div class="grid">
+        <div class="field"><label>Name</label><input type="text" id="m-boy-name" placeholder="Name"></div>
+        <div class="field"><label>Date of birth</label><input type="date" id="m-boy-date"></div>
+        <div class="field"><label>Time of birth</label><input type="time" id="m-boy-time" step="60"></div>
+        <div class="field" style="grid-column:span 2;"><label>Place of birth</label><input type="text" id="m-boy-place" autocomplete="off" placeholder="Start typing a city..."><div class="autocomplete-list" id="m-boy-list"></div></div>
+      </div>
+    </section>
+    <section class="card mini-person" id="girl-card">
+      <div class="legend">Girl / partner B</div>
+      <div class="grid">
+        <div class="field"><label>Name</label><input type="text" id="m-girl-name" placeholder="Name"></div>
+        <div class="field"><label>Date of birth</label><input type="date" id="m-girl-date"></div>
+        <div class="field"><label>Time of birth</label><input type="time" id="m-girl-time" step="60"></div>
+        <div class="field" style="grid-column:span 2;"><label>Place of birth</label><input type="text" id="m-girl-place" autocomplete="off" placeholder="Start typing a city..."><div class="autocomplete-list" id="m-girl-list"></div></div>
+      </div>
+    </section>
+    <div class="actions">
+      <button type="button" class="primary" id="btn-match">Calculate Guna Milan</button>
+    </div>
+    <div class="err" id="match-err" style="display:none;"></div>
+    <div id="match-report"></div>
+  </div>
+
+  <div class="foot">
+    Vimshottari Mahadasha/Antardasha framework, whole-sign Vedic houses, Lahiri sidereal zodiac. Yogini Dasha starting-point formula and Ashtakoot koota tables were checked against live web sources this session (cited in-app); Varshaphal implements only the solar-return chart and Muntha, not the full classical Varsheshwar (year-lord) determination. Astrowatch's own blind backtest (ASTROWATCH-BT-001, 519 real historical events) found no statistically significant predictive edge for this style of astrology (permutation p=1.0). Treat every result here as a traditional symbolic framework for reflection, not a factual claim about the future or about any person's compatibility. Place database of 10,975 locations reengineered from a legacy offline Kundli desktop application's bundled Access database; timezone offsets are meridian-based standard time from that same source and do not reflect historical daylight-saving changes -- use manual coordinates/UTC entry for exactness.
+  </div>
+</div>
+
+<script src="engine_core.js"></script>
+<script src="panchang.js"></script>
+<script src="chart.js"></script>
+<script src="yogini.js"></script>
+<script src="varshaphal.js"></script>
+<script src="matchmaking.js"></script>
+<script src="places_data.js"></script>
+<script src="native_bridge.js"></script>
+<script src="render.js"></script>
+</body>
+</html>

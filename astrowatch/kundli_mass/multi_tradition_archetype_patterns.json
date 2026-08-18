@@ -1,0 +1,165 @@
+{
+  "n_by_field": {
+    "ACTOR": 175,
+    "MUSICIAN": 204,
+    "ATHLETE": 271,
+    "SCIENTIST": 193,
+    "BUSINESS": 174,
+    "AUTHOR": 146,
+    "ARTIST_DIRECTOR": 141
+  },
+  "errors": 1,
+  "tenth_dignity_jyotisha": {
+    "ACTOR": {
+      "OWN_SIGN": 40,
+      "NEUTRAL": 113,
+      "DEBILITATED": 12,
+      "EXALTED": 10
+    },
+    "MUSICIAN": {
+      "NEUTRAL": 131,
+      "OWN_SIGN": 43,
+      "EXALTED": 20,
+      "DEBILITATED": 10
+    },
+    "ATHLETE": {
+      "NEUTRAL": 168,
+      "OWN_SIGN": 55,
+      "DEBILITATED": 25,
+      "EXALTED": 23
+    },
+    "SCIENTIST": {
+      "NEUTRAL": 132,
+      "OWN_SIGN": 36,
+      "EXALTED": 14,
+      "DEBILITATED": 11
+    },
+    "BUSINESS": {
+      "NEUTRAL": 113,
+      "OWN_SIGN": 34,
+      "DEBILITATED": 17,
+      "EXALTED": 10
+    },
+    "AUTHOR": {
+      "OWN_SIGN": 26,
+      "NEUTRAL": 92,
+      "DEBILITATED": 15,
+      "EXALTED": 13
+    },
+    "ARTIST_DIRECTOR": {
+      "NEUTRAL": 87,
+      "EXALTED": 15,
+      "DEBILITATED": 9,
+      "OWN_SIGN": 30
+    }
+  },
+  "tenth_lord_sect_hellenistic": {
+    "ACTOR": {
+      "contrary_to_sect": 83,
+      "of_sect": 68,
+      "n/a (mercury/node)": 24
+    },
+    "MUSICIAN": {
+      "of_sect": 93,
+      "contrary_to_sect": 82,
+      "n/a (mercury/node)": 29
+    },
+    "ATHLETE": {
+      "contrary_to_sect": 124,
+      "of_sect": 98,
+      "n/a (mercury/node)": 49
+    },
+    "SCIENTIST": {
+      "of_sect": 71,
+      "n/a (mercury/node)": 31,
+      "contrary_to_sect": 91
+    },
+    "BUSINESS": {
+      "contrary_to_sect": 82,
+      "of_sect": 64,
+      "n/a (mercury/node)": 28
+    },
+    "AUTHOR": {
+      "contrary_to_sect": 52,
+      "of_sect": 69,
+      "n/a (mercury/node)": 25
+    },
+    "ARTIST_DIRECTOR": {
+      "of_sect": 52,
+      "contrary_to_sect": 61,
+      "n/a (mercury/node)": 28
+    }
+  },
+  "chart_sect_distribution": {
+    "ACTOR": {
+      "day": 173,
+      "night": 2
+    },
+    "MUSICIAN": {
+      "night": 5,
+      "day": 199
+    },
+    "ATHLETE": {
+      "day": 271
+    },
+    "SCIENTIST": {
+      "day": 192,
+      "night": 1
+    },
+    "BUSINESS": {
+      "day": 168,
+      "night": 6
+    },
+    "AUTHOR": {
+      "day": 146
+    },
+    "ARTIST_DIRECTOR": {
+      "night": 1,
+      "day": 140
+    }
+  },
+  "cross_tradition_convergence": {
+    "ACTOR": {
+      "DISAGREE": 56,
+      "AGREE_NEGATIVE": 24,
+      "AGREE_POSITIVE": 34,
+      "NO_SIGNAL": 61
+    },
+    "MUSICIAN": {
+      "AGREE_POSITIVE": 48,
+      "DISAGREE": 64,
+      "NO_SIGNAL": 77,
+      "AGREE_NEGATIVE": 15
+    },
+    "ATHLETE": {
+      "AGREE_NEGATIVE": 26,
+      "NO_SIGNAL": 104,
+      "DISAGREE": 91,
+      "AGREE_POSITIVE": 50
+    },
+    "SCIENTIST": {
+      "AGREE_POSITIVE": 32,
+      "DISAGREE": 63,
+      "NO_SIGNAL": 79,
+      "AGREE_NEGATIVE": 19
+    },
+    "BUSINESS": {
+      "DISAGREE": 54,
+      "NO_SIGNAL": 73,
+      "AGREE_NEGATIVE": 17,
+      "AGREE_POSITIVE": 30
+    },
+    "AUTHOR": {
+      "DISAGREE": 42,
+      "NO_SIGNAL": 63,
+      "AGREE_POSITIVE": 26,
+      "AGREE_NEGATIVE": 15
+    },
+    "ARTIST_DIRECTOR": {
+      "DISAGREE": 41,
+      "AGREE_POSITIVE": 27,
+      "NO_SIGNAL": 60,
+      "AGREE_NEGATIVE": 13
+    }
+  }
+}

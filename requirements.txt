@@ -1,0 +1,24 @@
+# Astrowatch dependency list.
+#
+# pyswisseph is now a REQUIRED, load-bearing dependency (not optional) as of the
+# Swiss Ephemeris migration -- astrowatch/kundli.py imports it at module load time
+# and raises immediately if it's missing or if the required .se1 ephemeris data
+# files (astrowatch/ephemeris/) aren't present. See
+# astrowatch/ARCHITECTURE_SE_MIGRATION.md and astrowatch/LOCAL_DEVELOPMENT.md for
+# the full setup/rationale.
+#
+# Everything else in the project still uses only the Python standard library
+# (urllib, math, dataclasses, unittest, sqlite3, argparse, re, zoneinfo, http.server).
+# The chart API (astrowatch/api.py) deliberately uses http.server rather than adding
+# a web-framework dependency (Flask/FastAPI/etc.) -- see api.py's own docstring.
+
+pyswisseph==2.10.3.2
+
+# --- Astrowatch Online: AI intelligence layer (added, additive) -----------
+# Official OpenAI Python SDK. Used ONLY for reasoning/orchestration/synthesis
+# (ai/ package) -- never for astronomical or astrological calculation, which
+# remains pyswisseph/kundli.py/mahadasha.py/world_astrology as above. The
+# entire ai/ package fails gracefully (returns a clear "ai_unconfigured"
+# error, not a fabricated reading) if openai is not installed or
+# OPENAI_API_KEY is unset -- see ai/openai_client.py.
+openai>=1.50.0

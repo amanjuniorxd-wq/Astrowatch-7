@@ -1,0 +1,212 @@
+{
+  "generated_at_utc": "2026-08-17T18:16:19.101929+00:00",
+  "dataset_version": "cricket-wc-finals-v1",
+  "model_variant": "complete",
+  "n_total_events_in_dataset": 6,
+  "n_completed": 6,
+  "n_excluded": 0,
+  "metrics": {
+    "n_total": 6,
+    "n_ok": 6,
+    "n_excluded": 0,
+    "top1_accuracy": 0.3333333333333333,
+    "mean_brier": 0.6407565860116669,
+    "mean_log_loss": 0.8378050975756755,
+    "mean_reciprocal_rank": 0.6666666666666666,
+    "mean_predicted_rank_of_actual": 1.6666666666666667,
+    "by_event_type": {
+      "cricket_odi_world_cup": {
+        "n_total": 6,
+        "n_ok": 6,
+        "n_excluded": 0,
+        "top1_accuracy": 0.3333333333333333,
+        "mean_brier": 0.6407565860116669,
+        "mean_log_loss": 0.8378050975756755,
+        "mean_reciprocal_rank": 0.6666666666666666,
+        "mean_predicted_rank_of_actual": 1.6666666666666667,
+        "by_event_type": {},
+        "by_model_version": {}
+      }
+    },
+    "by_model_version": {
+      "vedic-weighted-v1:complete": {
+        "n_total": 6,
+        "n_ok": 6,
+        "n_excluded": 0,
+        "top1_accuracy": 0.3333333333333333,
+        "mean_brier": 0.6407565860116669,
+        "mean_log_loss": 0.8378050975756755,
+        "mean_reciprocal_rank": 0.6666666666666666,
+        "mean_predicted_rank_of_actual": 1.6666666666666667,
+        "by_event_type": {},
+        "by_model_version": {}
+      }
+    }
+  },
+  "calibration": {
+    "claimable": false,
+    "min_sample_required_for_claim": 30,
+    "n_ok_predictions": 6,
+    "bins": [
+      {
+        "low": 0.0,
+        "high": 0.2,
+        "n": 0,
+        "mean_predicted_confidence": null,
+        "actual_success_rate": null
+      },
+      {
+        "low": 0.2,
+        "high": 0.4,
+        "n": 0,
+        "mean_predicted_confidence": null,
+        "actual_success_rate": null
+      },
+      {
+        "low": 0.4,
+        "high": 0.6,
+        "n": 3,
+        "mean_predicted_confidence": 0.5142886420491427,
+        "actual_success_rate": 0.6666666666666666
+      },
+      {
+        "low": 0.6,
+        "high": 0.8,
+        "n": 3,
+        "mean_predicted_confidence": 0.6307963414051555,
+        "actual_success_rate": 0.0
+      },
+      {
+        "low": 0.8,
+        "high": 1.0,
+        "n": 0,
+        "mean_predicted_confidence": null,
+        "actual_success_rate": null
+      }
+    ],
+    "note": "Calibration is NOT claimed to be demonstrated -- this dataset has only 6 completed predictions, far below the 30-sample threshold this project requires before making any calibration-quality claim (see build spec Section 12)."
+  },
+  "best_predictions": [
+    {
+      "event_id": "cricket_wc_2003",
+      "event_name": "2003 ICC Cricket World Cup",
+      "predicted_winner": "australia",
+      "actual_winner": "australia",
+      "correct": true,
+      "brier": 0.46227810650887574
+    },
+    {
+      "event_id": "cricket_wc_2015",
+      "event_name": "2015 ICC Cricket World Cup",
+      "predicted_winner": "australia",
+      "actual_winner": "australia",
+      "correct": true,
+      "brier": 0.473199288002848
+    },
+    {
+      "event_id": "cricket_wc_2023",
+      "event_name": "2023 ICC Cricket World Cup",
+      "predicted_winner": "india",
+      "actual_winner": "australia",
+      "correct": false,
+      "brier": 0.5203025176131916
+    }
+  ],
+  "worst_predictions": [
+    {
+      "event_id": "cricket_wc_2007",
+      "event_name": "2007 ICC Cricket World Cup",
+      "predicted_winner": "sri_lanka",
+      "actual_winner": "australia",
+      "correct": false,
+      "brier": 0.829766750052343
+    },
+    {
+      "event_id": "cricket_wc_2019",
+      "event_name": "2019 ICC Cricket World Cup",
+      "predicted_winner": "new_zealand",
+      "actual_winner": "england",
+      "correct": false,
+      "brier": 0.8148767003281889
+    },
+    {
+      "event_id": "cricket_wc_2011",
+      "event_name": "2011 ICC Cricket World Cup",
+      "predicted_winner": "sri_lanka",
+      "actual_winner": "india",
+      "correct": false,
+      "brier": 0.7441161535645542
+    }
+  ],
+  "all_predictions": [
+    {
+      "event_id": "cricket_wc_2003",
+      "event_name": "2003 ICC Cricket World Cup",
+      "status": "OK",
+      "predicted_winner": "australia",
+      "actual_winner": "australia",
+      "correct": true,
+      "brier": 0.46227810650887574,
+      "log_loss": 0.6554068525770982,
+      "predicted_rank_of_actual": 1
+    },
+    {
+      "event_id": "cricket_wc_2007",
+      "event_name": "2007 ICC Cricket World Cup",
+      "status": "OK",
+      "predicted_winner": "sri_lanka",
+      "actual_winner": "australia",
+      "correct": false,
+      "brier": 0.829766750052343,
+      "log_loss": 1.0331459802365235,
+      "predicted_rank_of_actual": 2
+    },
+    {
+      "event_id": "cricket_wc_2011",
+      "event_name": "2011 ICC Cricket World Cup",
+      "status": "OK",
+      "predicted_winner": "sri_lanka",
+      "actual_winner": "india",
+      "correct": false,
+      "brier": 0.7441161535645542,
+      "log_loss": 0.9415204302500352,
+      "predicted_rank_of_actual": 2
+    },
+    {
+      "event_id": "cricket_wc_2015",
+      "event_name": "2015 ICC Cricket World Cup",
+      "status": "OK",
+      "predicted_winner": "australia",
+      "actual_winner": "australia",
+      "correct": true,
+      "brier": 0.473199288002848,
+      "log_loss": 0.666339916328802,
+      "predicted_rank_of_actual": 1
+    },
+    {
+      "event_id": "cricket_wc_2019",
+      "event_name": "2019 ICC Cricket World Cup",
+      "status": "OK",
+      "predicted_winner": "new_zealand",
+      "actual_winner": "england",
+      "correct": false,
+      "brier": 0.8148767003281889,
+      "log_loss": 1.0169649593409027,
+      "predicted_rank_of_actual": 2
+    },
+    {
+      "event_id": "cricket_wc_2023",
+      "event_name": "2023 ICC Cricket World Cup",
+      "status": "OK",
+      "predicted_winner": "india",
+      "actual_winner": "australia",
+      "correct": false,
+      "brier": 0.5203025176131916,
+      "log_loss": 0.7134524467206909,
+      "predicted_rank_of_actual": 2
+    }
+  ],
+  "excluded_events": [],
+  "hindsight_violations": [],
+  "ablation": null
+}

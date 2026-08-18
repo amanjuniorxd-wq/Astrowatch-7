@@ -1,0 +1,8 @@
+{"items":[
+{"id":1142,"year":1883,"month":8,"day":27,"hour":2,"minute":59,"country":"INDONESIA","locationName":"KRAKATAU","latitude":-6.102,"longitude":105.423,"maxWaterHeight":41,"deathsTotal":36417,"oceanicTsunami":true},
+{"id":1234,"year":1896,"month":6,"day":15,"hour":10,"minute":33,"eqMagnitude":8.3,"country":"JAPAN","locationName":"SANRIKU","latitude":39.5,"longitude":144,"maxWaterHeight":38.2,"deathsTotal":27122,"oceanicTsunami":true},
+{"id":1902,"year":1960,"month":5,"day":22,"hour":19,"minute":11,"second":17,"eqMagnitude":9.5,"country":"CHILE","locationName":"SOUTHERN CHILE","latitude":-38.143,"longitude":-73.407,"maxWaterHeight":25,"deathsTotal":2226,"oceanicTsunami":true},
+{"id":2439,"year":2004,"month":12,"day":26,"hour":0,"minute":58,"second":53.5,"eqMagnitude":9.1,"country":"INDONESIA","locationName":"OFF W. COAST OF SUMATRA","latitude":3.295,"longitude":95.982,"maxWaterHeight":50.9,"deathsTotal":227899,"oceanicTsunami":true},
+{"id":5413,"year":2011,"month":3,"day":11,"hour":5,"minute":46,"second":24.1,"eqMagnitude":9.1,"country":"JAPAN","locationName":"HONSHU ISLAND","latitude":38.297,"longitude":142.373,"maxWaterHeight":39.26,"deathsTotal":18423,"oceanicTsunami":true},
+{"id":2086,"year":1976,"month":8,"day":16,"hour":16,"minute":11,"second":7.3,"eqMagnitude":8,"country":"PHILIPPINES","locationName":"MORO GULF","latitude":6.292,"longitude":124.09,"maxWaterHeight":9,"deathsTotal":8000,"oceanicTsunami":true}
+]}
